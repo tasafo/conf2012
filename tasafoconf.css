@@ -81,8 +81,8 @@ font-size: 14px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.well.numeros a {
-  color: #FEE;
+.well.numeros a, .well.numeros b {
+  color: #543014;
   text-decoration: none;
 }
 
@@ -193,4 +193,18 @@ div.talker p, div.talker li {
 
 .hide {
   display: none;
+}
+
+img.apoio {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+img.patrocinio {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+h3.patrocinio {
+  margin-top: 0px;
 }
