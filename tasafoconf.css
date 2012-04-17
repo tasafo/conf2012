@@ -168,9 +168,17 @@ div#main-social {
   z-index: -1;
 }
 
+
+div.talker{
+	padding-bottom: 20px;
+}
+
 div.talker td {
   vertical-align: top;
   line-height: 25px;
+  padding: 5px;
+  border-bottom: 1px solid ;
+  border-bottom-style: dashed;
 }
 div.talker img {
   width: 160px;
@@ -181,7 +189,6 @@ div.talker img {
 
 div.talker p {
   font-size: 14px;
-  margin-left: 13px;
 }
 
 .hide {
