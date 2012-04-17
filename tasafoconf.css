@@ -191,6 +191,10 @@ div.talker p, div.talker li {
   font-size: 14px;
 }
 
+div.talker.aldrin p {
+  font-size: 12px;
+}
+
 .hide {
   display: none;
 }
