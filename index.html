@@ -12,18 +12,7 @@
   </head>
   <body>
     <div id="fb-root"></div>
-    <script>
-		( function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if(d.getElementById(id))
-				return;
-			js = d.createElement(s);
-			js.id = id;
-			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-
-</script>
+    
 
     <div id='container'>
       <div id='header'>
@@ -32,6 +21,7 @@
             <li><a href='#inicio'>Início</a></li>
             <li><a href='#programacao'>Programação</a></li>
             <li><a href='#palestrantes'>Palestrantes</a></li>
+            <li><a href='#lightning-talks'>Lightning Talks</a></li>
             <li><a href='#inscricoes'>Inscrições</a></li>
             <li><a href='#patrocine'>Patrocine!</a></li>
             <li><a href='#contato'>Contato</a></li>
@@ -599,6 +589,18 @@
             </div>
 
         </div>
+        <div id="lightning-talks">
+        	<h1>Lightning Talks</h1>
+        	<p>
+        		Está aberta a chamada de propostas para as Lightning Talks para o Tá Safo! Conf. Será uma rodada de palestras-relâmpago de no máximo 
+        		10 minutos, com tema livre. Tudo isso da maneira do Tá Safo! e num ambiente leve e descontraído. 
+        		Você pode cadastrar sua talk no <a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks">Call4paperz</a>, mas não esqueça de twittar :).
+        		Então, se você gostaria de compartilhar algo conosco, não deixe de cadastrar sua proposta!
+        		
+        		
+        	</p>
+        	<a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Cadastrar Talk</a>
+        </div>
 
           <div id='inscricoes'>
             <h1>Inscrições</h1>
@@ -718,6 +720,18 @@
       </div>
     </div>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>
+		( function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if(d.getElementById(id))
+				return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+</script>
     <script type="text/javascript">
 		$(function() {
 			$("#main-nav-menu a").click(function(e) {
