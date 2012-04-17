@@ -2,6 +2,7 @@ body {
   margin: 0px;
   background-color: #FEE;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 25px;
 }
 
 #header img {
@@ -10,7 +11,7 @@ body {
 
 #main-nav-menu {
   position: fixed;
-  z-index: 99;
+  z-index: 9999;
   width: 960px;
 }
 
@@ -25,10 +26,11 @@ body {
 
 #content {
   width: 620px;
+font-size: 14px;
 }
 
 .nav-menu {
-  background-color: #7B633D;
+  background-color: #02913F;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -130,7 +132,7 @@ h1.small, h2.small {
 
 p, li {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #7E684D;
+  color: #313332;
 }
 
 table#event {
@@ -166,8 +168,17 @@ div#main-social {
   z-index: -1;
 }
 
+
+div.talker{
+	padding-bottom: 20px;
+}
+
 div.talker td {
   vertical-align: top;
+  line-height: 25px;
+  padding: 5px;
+  border-bottom: 1px solid ;
+  border-bottom-style: dashed;
 }
 div.talker img {
   width: 160px;
@@ -178,7 +189,6 @@ div.talker img {
 
 div.talker p, div.talker li {
   font-size: 14px;
-  margin-left: 13px;
 }
 
 .hide {

@@ -2,17 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <title>Tá Safo Conf 2012</title>
     <link href="tasafoconf.css" media="all" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+		( function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if(d.getElementById(id))
+				return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+</script>
 
     <div id='container'>
       <div id='header'>
@@ -44,40 +50,52 @@
 
           <div id='main-social'>
             <a href="https://twitter.com/intent/tweet?button_hashtag=tasafoConf&text=Eu%20vou!" class="twitter-hashtag-button" data-lang="pt" data-related="tasafo" data-url="http://tasafo.org/conf2012">Tweet #tasafoConf</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <script>
+				! function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if(!d.getElementById(id)) {
+						js = d.createElement(s);
+						js.id = id;
+						js.src = "//platform.twitter.com/widgets.js";
+						fjs.parentNode.insertBefore(js, fjs);
+					}
+				}(document, "script", "twitter-wjs");
+
+</script>
             <div class="fb-like" data-href="http://tasafo.org/conf2012" data-send="false" data-layout="button_count" data-width="50" data-show-faces="true"></div>
 
           </div>
 
           <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
           <script>
-          new TWTR.Widget({
-            version: 2,
-            type: 'search',
-            search: '#tasafoemacao OR #tasafoconf OR @tasafo',
-            interval: 30000,
-            title: '#tasafoconf',
-            subject: 'Tá Safo Conf 2012!',
-            width: 250,
-            height: 400,
-            theme: {
-              shell: {
-                background: '#645034',
-                color: '#ffffff'
-              },
-              tweets: {
-                background: '#ffffff',
-                color: '#444444',
-                links: '#645034'
-              }
-            },
-            features: {
-              scrollbar: true,
-              loop: false,
-              live: true,
-              behavior: 'all'
-            }
-          }).render().start();
+			new TWTR.Widget({
+				version : 2,
+				type : 'search',
+				search : '#tasafoemacao OR #tasafoconf OR @tasafo',
+				interval : 30000,
+				title : '#tasafoconf',
+				subject : 'Tá Safo Conf 2012!',
+				width : 250,
+				height : 400,
+				theme : {
+					shell : {
+						background : '#645034',
+						color : '#ffffff'
+					},
+					tweets : {
+						background : '#ffffff',
+						color : '#444444',
+						links : '#645034'
+					}
+				},
+				features : {
+					scrollbar : true,
+					loop : false,
+					live : true,
+					behavior : 'all'
+				}
+			}).render().start();
+
           </script>
 
           <div id="links">
@@ -264,13 +282,13 @@
             <h1>Palestrantes</h1>
 
             <div class="talker">
-              <h2>Alexandre Magno</h2>
+              
               <table>
                 <tr>
                   <td>
                    <img src='imagens/alexandre_magno.jpg' />
                   </td>
-                  <td>
+                  <td><h2>Alexandre Magno</h2>
                      <p>
                        Alexandre Magno é o diretor de AdaptWorks. Ele foi o primeiro Certified Scrum treinador do
                        Brasil e tem acumulado uma vasta experiência em implementar Scrum e outros métodos ágeis 
@@ -320,13 +338,13 @@
             </div>
 
             <div class="talker hide">
-              <h2>Luca Bastos</h2>
+              
               <table>
                 <tr>
                   <td>
                    <img src='imagens/luca_bastos.jpg' />
                   </td>
-                  <td>
+                  <td><h2>Luca Bastos</h2>
                     <p>
                        Desenvolvedor do tempo da Carochinha, ávido leitor e praticante sempre interessado em 
                        metodologias de desenvolvimento desde antes de surgirem a programação modular, programação 
@@ -352,13 +370,14 @@
             </div>
 
             <div class="talker">
-              <h2>Marcos Venícios</h2>
+              
               <table>
                 <tr>
                   <td>
                    <img src='imagens/marcos_venicios.jpg' />
                   </td>
                   <td>
+                  	<h2>Marcos Venícios</h2>
                     <p>
                        Professor Universitário, Engenheiro de Software, Gerente de Projetos e consultor em metologias ágeis
                    </p>
@@ -384,13 +403,14 @@
             </div>
 
             <div class="talker">
-              <h2>Manoel Pimentel</h2>
+              
               <table>
                 <tr>
                   <td>
                    <img src='imagens/manoel_pimentel.jpg' />
                   </td>
                   <td>
+                  	<h2>Manoel Pimentel</h2>
                     <p>
                        Manoel Pimentel é Coach com 15 anos de experiência na área de TI, onde atuou 
                        com Coaching e Training para executivos e times em empresas de diferentes 
@@ -406,13 +426,14 @@
             </div>
 
             <div class="talker">
-              <h2>Rildo Santos</h2>
+              
               <table>
                 <tr>
                   <td>
                    <img src='imagens/rildo_santos.jpg' />
                   </td>
                   <td>
+                  	<h2>Rildo Santos</h2>
                     <p>
                       É Consultor, Palestrante, Coach, Instrutor e Professor de MBA. Tem mais de 
                       10.000 horas de experiência em projetos de Gestão por Processo, Planejamento 
@@ -430,13 +451,14 @@
             </div>
 
             <div class="talker">
-              <h2>Caike Souza</h2>
+              
               <table>
                 <tr>
                   <td>
                    <img src='imagens/caike_souza.jpg' />
                   </td>
                   <td>
+                  	<h2>Caike Souza</h2>
                       <p>
                         Eu sou um desenvolvedor de software de 25 anos vivendo em Orlando, FL.
                       <p>
@@ -472,13 +494,14 @@
             </div>
             
             <div class="talker">
-              <h2>Edgar Silva</h2>
+              
               <table>
                 <tr>
                   <td>
                    <img src='imagens/edgar_silva.png' />
                   </td>
                   <td>
+                  	<h2>Edgar Silva</h2>
                       <p>
                        Edgar Silva é Solutions Architect Manager na Red Hat do Brasil, responsável 
                        pelo time que define as tecnologias e soluções de Plataforma Linux, Middleware, 
@@ -495,13 +518,14 @@
 
 
             <div class="talker">
-              <h2>Paulo Igor</h2>
+              
               <table>
                 <tr>
                   <td>
                    <img src='imagens/paulo_igor.jpg' />
                   </td>
                   <td>
+                  	<h2>Paulo Igor</h2>
                       <p>
                        Bacharel em Sistemas de Informação e Mestre em Ciência da Computação. 
                        Desenvolve sistemas há 7 anos, onde atuou em projetos para o setor bancário, 
@@ -517,13 +541,14 @@
             </div>
 
             <div class="talker">
-              <h2>Fábio Aguiar</h2>
+              
               <table>
                 <tr>
                   <td>
                    <img src='imagens/fabio_aguiar.jpg' />
                   </td>
                   <td>
+                  	<h2>Fábio Aguiar</h2>
                       <p>
                        Bacharel em Sistemas de Informação e especialista em 
                        Engenharia de Processo de Software, com mais de 12 anos de experiência 
@@ -543,13 +568,14 @@
             </div>
 
             <div class="talker">
-              <h2>Luiz Sanches</h2>
+             
               <table>
                 <tr>
                   <td>
                    <img src='imagens/luiz_sanches.jpg' />
                   </td>
                   <td>
+                  	 <h2>Luiz Sanches</h2>
                       <p>
                         Trabalha com desenvolvimento de software e ensino em informática a
                         mais de 10 anos. É graduado em Sistemas de Informação e pós-graduando
@@ -684,5 +710,17 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript">
+		$(function() {
+			$("#main-nav-menu a").click(function(e) {
+				console.log($(this).attr("href"));
+				$('html, body').animate({
+					scrollTop : $($(this).attr("href")).offset().top
+				}, 1000);
+				return false;
+			});
+		})
+    </script>
   </body>
 </html>
