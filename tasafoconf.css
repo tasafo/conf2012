@@ -59,30 +59,31 @@ font-size: 14px;
 }
 
 .well {
-  background-color: #875;
+  background-color: #02913F;
   padding: 25px;
   font-size: 13px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  color: #543014;
+	color: #FFFFFF;
 }
 
 
-.well a {
-  color: #FEE;
+.well a, .well.numeros a {
+  color: #0000AB;
 }
 .well.numeros h3 {
   margin: 0px;
+	color: #FFFFFF;
 }
 .well.numeros {
   font-size: 18px;
-  color: black;
+  color: #FFFFFF;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.well.numeros a, .well.numeros b {
-  color: #543014;
+.well.numeros b {
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -189,6 +190,10 @@ div.talker img {
 
 div.talker p, div.talker li {
   font-size: 14px;
+}
+
+div.talker.aldrin p {
+  font-size: 12px;
 }
 
 .hide {
