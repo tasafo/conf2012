@@ -2,6 +2,7 @@ body {
   margin: 0px;
   background-color: #FEE;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
 }
 
 #header img {
@@ -10,7 +11,7 @@ body {
 
 #main-nav-menu {
   position: fixed;
-  z-index: 1;
+  z-index: 9999;
   width: 960px;
 }
 
@@ -25,10 +26,11 @@ body {
 
 #content {
   width: 620px;
+font-size: 14px;
 }
 
 .nav-menu {
-  background-color: #7B633D;
+  background-color: #02913F;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -130,7 +132,7 @@ h1.small, h2.small {
 
 p {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #7E684D;
+  color: #313332;
 }
 
 table#event {
@@ -168,6 +170,7 @@ div#main-social {
 
 div.talker td {
   vertical-align: top;
+  line-height: 25px;
 }
 div.talker img {
   width: 160px;
