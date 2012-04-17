@@ -130,7 +130,7 @@ h1.small, h2.small {
   margin-top: -10px;
 }
 
-p {
+p, li {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #313332;
 }
@@ -187,7 +187,7 @@ div.talker img {
   border: 1px solid #ececec;
 }
 
-div.talker p {
+div.talker p, div.talker li {
   font-size: 14px;
 }
 
