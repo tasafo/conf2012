@@ -188,6 +188,13 @@ div.talker img {
   border: 1px solid #ececec;
 }
 
+div.talker p img.icon{
+	width: 25px;
+	height: 25px;
+	border: none;
+	padding: 0 10px 0 0;
+}
+
 div.talker p, div.talker li {
   font-size: 14px;
 }
