@@ -113,6 +113,15 @@ h1.small, h2.small {
   margin-top: 60px;
 }
 
+#sidebar h1{
+	padding-top: 0px;
+	
+}
+
+#sidebar h3{
+	border-bottom-style: dashed;
+}
+
 #sidebar #links {
   margin-top: 20px;
 }
@@ -120,6 +129,11 @@ h1.small, h2.small {
 #sidebar #links a {
   text-decoration:none;
   color: #543014;
+}
+
+
+#sidebar #box-patrocinio .logo-patrocinador{
+	text-align: center;
 }
 
 #widget {
