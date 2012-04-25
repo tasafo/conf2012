@@ -234,3 +234,68 @@ img.patrocinio {
 h3.patrocinio {
   margin-top: 0px;
 }
+
+.prop{
+	margin-bottom:30px;
+	min-height:176px;
+	width:581px;
+	position: relative;
+	border-bottom: 1px solid;
+	padding-bottom: 20px;
+	border-bottom-style: dashed;
+}
+
+.prop p strong, .sub_vote, .sub_add_prop{
+	font-weight: bold;
+	color: #543014;
+	font-size: 12px;
+}
+
+.prop p{
+	color: #111111;
+	font-size: 14px;
+}
+
+.prop_sub{
+	top:140px;
+}
+
+.prop_sub img{
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border: 2px solid;
+}
+
+.prop_sub small{
+	color: ##543014;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right:200px;
+}
+
+.prop_sub a:link, .prop_sub a:visited{
+	font-size: 12px;
+	color: #543014;
+	text-decoration: none;
+}
+
+.prop_sub a:hover, .prop_sub a:active{
+	text-decoration: underline;
+	color: #543014;
+	background-color: #ffffff;
+}
+
+a.prop_link:link, a.prop_link:visited{
+	color: #543014;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+a.prop_link:hover, a.prop_link:active{
+	text-decoration: underline;
+	background-color: #ffffff;
+}
+
+.thumb{
+	border: 0 !important;
+}
