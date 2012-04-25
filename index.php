@@ -46,7 +46,6 @@
             <div class="logo-patrocinador"><a href="http://aws.amazon.com/pt/" target="_blank"><img src='imagens/aws.png' class="patrocinio" /></a><br /></div>
             <div class="logo-patrocinador"><a href="http://caelum.com.br/" target="_blank"><img src='imagens/caelum.png' class="patrocinio" /></a><br /></div>
             <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
-            
             <h3>Platinum</h3>
             <div class="logo-patrocinador"><img src='imagens/img-gold.png' width="100" height="60" /><br /></div>
             
@@ -376,9 +375,10 @@
                   <td>
                   	<h2>Jaime Schettini</h2>
                      <p>
-                      Atuo há mais de 4 anos com desenvolvimento de software e hoje faço parte do time da <a href="http://www.chaordicsystems.com/">Chaordic Systems</a>. Pratico e acredito fortemente nas metodologias ágeis, por achar que elas são o que temos de melhor hoje, pois valorizam as pessoas por trás do software. Tenho a convicção de que precisamos ser, primeiro, melhores pessoas, para depois nos tornarmos melhores profissionais.
+                      Atuo há mais de 4 anos com desenvolvimento de software. Pratico e acredito fortemente nas metodologias ágeis, por achar que elas são o que temos de melhor hoje, pois valorizam as pessoas por trás do software. Tenho a convicção de que precisamos ser, primeiro, melhores pessoas, para depois nos tornarmos melhores profissionais.
                      <p>
                        	<a href="https://twitter.com/jaimeschettini" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
+                       	<a href="http://jaimesch.blogspot.com.br/" target="_blank" title="Blog"><img class="icon" src="imagens/blogspot icon.png" /></a>
                        	<a href="http://br.linkedin.com/in/jaimeschettini" target="_blank" title="Linkedin"><img class="icon" src="imagens/linkedin.png" /></a>
                        </p>
                      </p>
@@ -746,7 +746,10 @@
         		
         		
         	</p>
+	    
         	<a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Cadastrar Talk</a>
+
+		<?php include 'pog.php'; ?>
         </div>
 
           <div id='inscricoes'>
@@ -879,6 +882,20 @@
 				}, 1000);
 				return false;
 			});
+		
+		    $(".spinner").remove();
+		    $('.percentage').remove();
+		    $('.sub_vote').prev().remove();
+		    $('.sub_vote').remove();
+		    
+		    $("#proposal_list a").each(function(){
+		    	var stringLink = $(this).attr('href');
+		    	var link = "http://call4paperz.com" + stringLink;
+		    	$(this).attr("href", link);
+		    	console.log($(this).attr('href'));
+		    });
+		    
+		    $('.voting_container').remove();
 		})
     </script>
     <script type="text/javascript">
