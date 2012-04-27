@@ -8,7 +8,12 @@
 
     <title>Tá Safo Conf 2012</title>
     <link href="tasafoconf.css" media="all" rel="stylesheet" type="text/css">
-    
+    <link href="inscricoes.css" rel="stylesheet" type="text/css" media="screen" />
+    <script type="text/javascript" src="inscricao/view/js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="inscricao/view/js/jquery/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="inscricao/view/js/jquery/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+    <script type="text/javascript" src="inscricao/view/js/inscricao.js"></script>
+    <script type="text/javascript" src="palestras.js"></script>
   </head>
   <body>
     <div id="fb-root"></div>
@@ -46,6 +51,7 @@
             <div class="logo-patrocinador"><a href="http://aws.amazon.com/pt/" target="_blank"><img src='imagens/aws.png' class="patrocinio" /></a><br /></div>
             <div class="logo-patrocinador"><a href="http://caelum.com.br/" target="_blank"><img src='imagens/caelum.png' class="patrocinio" /></a><br /></div>
             <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
+            <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
             <h3>Platinum</h3>
             <div class="logo-patrocinador"><img src='imagens/img-gold.png' width="100" height="60" /><br /></div>
             
@@ -133,10 +139,6 @@
 
           <div id='programacao'>
             <h1>Programação</h1>
-
-            <p>
-              A grade de palestras ainda não foi definida! Mas você poderá ver como será o evento!
-            </p>
             
             <p>
               Em dois dias, além das palestras você poderá participar de workshops, Conding Dojos,
@@ -146,7 +148,200 @@
             <p>Na #horaDoDesapego você e outros trazem livros que já leram e já tá naquela hora de 
               passar a bola pra frente! Doe e troque seus livros! Há pessoas querendo adotá-los. :)
             </p>
+            
+            <div id="palestra-abertura" style="display: none">
+            	
+            </div>
+            
+            <div style="display: none;">
+            	<div id="palestra-rildo" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/rildo_santos.jpg' /><br />
+            			<a href="https://twitter.com/#!/rildosan" target="_blank">Rildo Santos</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>Requisitos Ágeis, do negócio ao software</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+            		Existe uma lacuna entre os requisitos do negócio e os requisitos de software, nem mesmo os métodos ágeis têm uma boa solução para isto.
+Esta palestra faz uma apresentação de uma proposta para melhorar o entendimento e o gerenciamento do ciclo de requisitos para entregar software de valor.
+				</p>
+            	
+            		</div>
+            	</div>
+            </div>
+            
+             <div style="display: none;">
+            	<div id="palestra-caike" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/caike_souza.jpg' /><br />
+            			<a href="http://www.twitter.com/caike" target="_blank">Caike Souza</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>Modelagem Orientada a Interfaces</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+            		Esta palestra irá abordar as boas práticas na modelagem de aplicações orientadas a objeto utilizando Ruby e Rails. Falaremos sobre algumas das técnicas que facilitam o desenvolvimento de componentes de baixo acoplamento, que podem ser facilmente estendidos e adaptados para responder a mudanças de requisitos.</p>
+            	
+            		</div>
+            	</div>
+            </div>
+            
+             <div style="display: none;">
+            	<div id="palestra-sandro-marcos" class="palestra">
+            		<div class="foto-palestrante" >
+            			<p> <img src='imagens/sandro_bezerra.jpg' /><br />
+            			<a href="https://twitter.com/drsandrobezerra" target="_blank">Sandro Bezerra</a>
+            			</p>
+            			<img src='imagens/marcos_venicios.jpg' /><br />
+            			<a href="https://twitter.com/#!/mvcaraujo" target="_blank">Marcos Venicios</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>Desafio de um programa de melhorias usando conceitos ágeis</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+					A definir.            	
+            		</div>
+            	</div>
+            </div>
+            
+             <div style="display: none;">
+            	<div id="palestra-edgar" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/edgar_silva.png' /><br />
+            			<a href="https://twitter.com/#!/jedgarsilva" target="_blank">Edgar Silva</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>OpenShift: A Solução de Nuvem da Red Hat para Soluções de Aplicações</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+Com o conceito de nuvem (Cloud Computing), um mundo de possibilidade para Desenvolvimento de Aplicações Web 2.0 se tornaram cada vez mais reais, veja como exemplo : Twitter, Foursquare, Instagram etc, imagine então que se você tem uma boa idéia, ou mesmo quer desenvolver uma aplicação de cunho geral, o OpenShift pode ser sua "Platform as a Service - PaaS" (Plataforma como Serviço), para hospedar suas aplicações e Serviços Web de uma maneira simples e muito sofisticada.
+Nesta apresentação, as pessoas irão entender como podem transformar aplicações locais em aplicações que rodarão já na Internet, estas podem hoje em dia serem escritas usando não só Java, mas também Ruby, além de uso de estruturas NoSQL como MongoDB, além de bancos de dados como o MySQL.            	
+            		</div>
+            	</div>
+            </div>
+            
+            <div style="display: none;">
+            	<div id="palestra-magno" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/alexandre_magno.jpg' /><br />
+            			<a href="https://twitter.com/#!/axmagno" target="_blank">Alexandre Magno</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>Ao invés de demitir sua empresa, que tal se empenhar para melhorá-la?</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+            		Você acha que muitas empresas tem falhado com Agile? Na verdade, elas não tem falhado especificamente com Agile, mas sim com a grande maioria dos processos de mudança que se envolveram nos últimos anos (ou décadas). Frases como: “pessoas são difíceis”, “não dá para mudar a cultura de uma empresa” e “no mundo real isso não funciona”, são os mais comuns argumentos que encontramos em qualquer um desses processos.
+O grande problema aqui, é que qualquer processo de mudança em uma empresa depende muito mais de você do que dela própria. Quando insatisfeito em uma empresa, você poderá optar por: demiti-la (ir embora), se conformar, ou, se empenhar - de verdade - para melhorá-la! Nesta palestra veja o que a Gestão 3.0 (Management 3.0) pode lhe ensinar sobre gestão de mudança e de que forma você deve trabalhar para realmente melhorar a empresa em que trabalha.
+            		</div>
+            	</div>
+            </div>
+            
+            <div style="display: none;">
+            	<div id="palestra-manoel" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/manoel_pimentel.jpg' /><br />
+            			<a href="https://twitter.com/#!/manoelp" target="_blank">Manoel Pimentel</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>Não tolero falhas e no meu time tem um bando de retardados! E agora?</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+            		É comum ver times num eterno embate sobre os respectivos “gaps” intelectuais e de competências que existem entre entre seus membros.
 
+O objetivo dessa palestra é mostrar que a abordagem de Coaching pode ajudar as pessoas rotuladas como difíceis e as pessoas que convivem com elas, a desenvolverem uma nova estratégia mental, para desenvolver comportamentos mais eficientes nas relações e nos desafios rumo a uma meta.
+
+Os tópicos são:<br />
+
+O que é a sindrome do Macho Alpha?<br />
+Como trabalhar com a autopercepção de uma pessoa<br />
+Competitividade entre pares<br />
+Sou o melhor em minha equipe! E agora?<br />
+Meu colega é teimoso igual a uma porta! O que eu faço?<br />
+Estou certo em tudo! E agora?<br />
+Debugando meus pensamentos e comportamentos<br />
+</p>
+            		</div>
+            	</div>
+            </div>
+            
+            <div style="display: none;">
+            	<div id="palestra-cardoso" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/alexandre-profile.jpg' /><br />
+            			<a href="https://twitter.com/#!/accbel" target="_blank">Alexandre Cardoso</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>Ciclo de desenvolvimento ágil - Uma abordagem para entrega de valor</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+					Hoje em dia, é bastante comum você ouvir a seguinte afirmação: "Meu time roda um processo ágil, baseado em algumas práticas de XP e algumas coisas de Scrum" ou "Somos ágeis. Fazemos reunião diária, etc.". Mesmo em grandes empresas, muito se fala sobre implementar processos ágeis em projetos de software. A realidade é que poucos conseguem, de fato, entregam agilidade, como forma de maximizar o potencial do time e fazer constante entrega de valor. A entrega de valor, por times de desenvolvimento, está intrinsecamente ligada ao uso correto de práticas consideradas ágeis, como integração contínua, TDD, continuous deployment, dentre outras. Nesta palestra, falaremos sobre Agilidade, no contexto de entrega de valor, e como times de desenvolvimento podem buscar isto no dia-a-dia.           	
+            		</div>
+            	</div>
+            </div>
+            
+            <div style="display: none;">
+            	<div id="palestra-aldrin" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/aldrin_leal.jpg' /><br />
+            			<a href="https://twitter.com/#!/aldrinleal" target="_blank">Aldrin Leal</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>Reflexões sobre os Dogmas que não Latem mais</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+            		Em 17 anos de carreira profissional, Aldrin Leal traça uma linha evolutiva entre o que havíamos há 2800 anos atrás, e faz uma extrapolação sobre o que e para aonde a sociedade irá nos próximos anos. E o que os seus 17 anos tem a ver com isso? Ele esperou 17 anos para falar tudo o que ele julga que um profissional deva possuir, enquanto atitudes e competências. Mesclando Desabafo, Stand-Up Comedy, História, Economia e Filosofia, o objetivo final é passar a mensagem sobre o que você precisa para crescer, não apenas como profissional, mas como pessoa.
+            		</div>
+            	</div>
+            </div>
+            
+            <div style="display: none;">
+            	<div id="palestra-ricardo" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/ricardo.PNG' /><br />
+            			<a href="http://www.twitter.com/jricardoferreir" target="_blank">Ricardo Ferreira</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>Inteligência dos Negócios em Tempo Real usando CEP & BAM</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+            		Quando falamos em inteligência aplicada aos negócios, normalmente queremos nos referir a prática do que o mercado conhece como BI ("Business Intelligence"). Através desta tecnologia, é possível encontrar informações e fatos relevantes ao negócio apenas analisando milhares de eventos que foram capturados e armazenados para fins de processamento. Nos últimos anos, diferentes indústrias têm chegado a conclusão de que não é mais pertinente tentar encontrar inteligência em eventos que já aconteceram, pois muitas das oportunidades ou ameaças destas indústrias devem ser identificados processando os eventos à medida em que eles acontecem. Para lidar com esse tipo de cenário, é necessário utilizar tecnologias mais modernas de processamento, como o CEP ("Complex Event Processing"), bem como mecanismos de monitoração como um BAM ("Business Activity Monitoring"). A palestra visa mostrar de forma teória e prática, como estas tecnologias são combinadas para criar inteligência em tempo real aos negócios, mostrando também na prática, um exemplo deste tipo de solução para uma empresa de processamento de transações de pagamento.
+            		</div>
+            	</div>
+            </div>
+            
+             <div style="display: none;">
+            	<div id="palestra-papo" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/papo.jpg' /><br />
+            			<a href="https://twitter.com/#!/josepapo" target="_blank">josé Papo</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>Seu futuro está na Nuvem! Como a Amazon pode ajudar sua empresa ou startup a crescer e a prosperar</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+            		Vamos mostrar como a Revolução da Nuvem está mudando nossas vidas e nossas empresas. Vamos mostrar como podemos usar a Nuvem para sermos mais Ágeis, mais enxutos, gastar menos dinheiro e atender as flutuações de demanda de nossos usuários. Vamos mostrar exemplos de empresas como Netflix, Peixe Urbano, Pinterest, foursquare, Samsung, NASA, vimeo, R7, entre outras. Compareça e descubra o poder revolucionário da Nuvem da Amazon!
+            		</div>
+            	</div>
+            </div>
+            
+             <div style="display: none;">
+            	<div id="palestra-jaime" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/jaime_schettini.jpg' /><br />
+            			<a href="https://twitter.com/jaimeschettini" target="_blank">Jaime Schettini</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>A filosofia do sucesso: como mudar o mundo de dentro para fora</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+            		O que nos impede de ter sucesso? Vamos definir o [nosso] sucesso e estruturar
+um novo caminho a ser trilhado, a partir de uma análise psicológica, para descobrir e remover as barreiras que nos impedem de alcançar nossos objetivos. Vamos transformar eu, você e seu time em multiplicadores de êxito.
+            		</div>
+            	</div>
+            </div>
+            
+			<span style="color: red">* Programação sujeita a alteração</span>
             <table id='event'>
               <thead>
                 <th></th>
@@ -163,23 +358,18 @@
                 <tr>
                   <td>8:00</td>
                   <td>Credenciamento / Café da Manhã</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td colspan="3"></td>
                 </tr>
                 <tr>
                   <td>9:00</td>
-                  <td>Palestra</td>
-                  <td></td>
-                  <td></td>
-                  <td>Exposição</td>
+                  <td>"Comunidade Aberta com Pessoas Adaptáveis, Simples e Auto-Organizadas" <br /> Fábio Aguiar e Luiz Sanches</td>
+                  <td colspan="2"></td>
+                  <td rowspan="2"> Exposição</td>
                 </tr>
                 <tr>
                   <td>9:50</td>
-                  <td>Palestra</td>
-                  <td></td>
-                  <td></td>
-                  <td>Exposição</td>
+                  <td><a id="trigger-rildo" href="#palestra-rildo">"Requisitos Ágeis, do negócio ao software" <br /> Rildo Santos</a></td>
+                  <td colspan="2"> </td>
                 </tr>
                 <tr>
                   <td>10:40</td>
@@ -187,36 +377,34 @@
                 </tr>
                 <tr>
                   <td>11:00</td>
-                  <td>Palestra</td>
-                  <td></td>
-                  <td></td>
-                  <td>Exposição</td>
+                  <td><a id="trigger-caike" href="#palestra-caike">"Modelagem Orientada a Interfaces" <br /> Caike Souza</a></td>
+                  <td colspan="2"></td>
+                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
-                  <td>12:00</td>
-                  <td>Palestra</td>
-                  <td></td>
-                  <td></td>
-                  <td>Exposição</td>
+                  <td>11:50</td>
+                  <td><a id="trigger-sandro-marcos" href="#palestra-sandro-marcos">"Desafio de um programa de melhorias usando conceitos ágeis" <br /> Sandro Bezerra e Marcos Venícios</a></td>
+                  <td colspan="2"></td>
                 </tr>
                 <tr>
-                  <td>13:00</td>
+                  <td>12:30</td>
                   <td colspan="4">Almoço</td>
                 </tr>
                 <tr>
                   <td>14:00</td>
-                  <td>Palestra</td>
-                  <td rowspan='3'>Dojo/Open Space</td>
-                  <td rowspan='3'>Dojo/Open Space</td>
+                  <td>a definir <br /> Paulo Igor</td>
+                  <td rowspan='2'>Dojo/Open Space</td>
+                   <td rowspan='2'>Dojo/Open Space</td>
                   <td rowspan='3'>Exposição</td>
+                 
                 </tr>
                 <tr>
                   <td>14:50</td>
-                  <td>Palestra</td>
+                  <td><a id="trigger-edgar" href="#palestra-edgar">"OpenShift: A Solução de Nuvem da Red Hat para Soluções de Aplicações" <br /> Edgar Silva</a></td>
                 </tr>
                 <tr>
                   <td>15:40</td>
-                  <td>Palestra</td>
+                  <td><a id="trigger-magno" href="#palestra-magno">"Ao invés de demitir sua empresa, que tal se empenhar para melhorá-la?" <br> Alexandre Magno</a></td>
                 </tr>
                 <tr>
                   <td>16:30</td>
@@ -224,20 +412,20 @@
                 </tr>
                 <tr>
                   <td>16:50</td>
-                  <td>Palestra</td>
+                  <td>Lightning Talks (5)</td>
                   <td></td>
                   <td></td>
                   <td>Exposição</td>
                 </tr>
-
-                <tr class='day1'>
-                  <td>18:00</td>
-                  <td colspan="4"></td>
+<tr class='day1'>
+                  <td>17:40</td>
+                  <td colspan="4">Enceramento do primeiro dia</td>
                 </tr>
 
                 <tr class='day2'>
                   <td rowspan='13'>Dia 2</td>
                 </tr>
+                
                 <tr>
                   <td>8:00</td>
                   <td>Credenciamento / Café da Manhã</td>
@@ -247,16 +435,15 @@
                 </tr>
                 <tr>
                   <td>9:00</td>
-                  <td>Palestra</td>
+                  <td><a id="trigger-manoel" href="#palestra-manoel">"Não tolero falhas e no meu time tem um bando de retardados! E agora?" <br /> Manoel Pimentel</a></td>
                   <td></td>
                   <td rowspan="2">Tutorial / Workshop</td>
-                  <td>Exposição</td>
+                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>9:50</td>
-                  <td>Palestra</td>
+                  <td><a id="trigger-cardoso" href="#palestra-cardoso">"Ciclo de desenvolvimento ágil - Uma abordagem para entrega de valor" <br /> Alexandre Cardoso</a></td>
                   <td></td>
-                  <td>Exposição</td>
                 </tr>
                 <tr>
                   <td>10:40</td>
@@ -264,16 +451,15 @@
                 </tr>
                 <tr>
                   <td>11:00</td>
-                  <td>Palestra</td>
+                  <td><a id="trigger-aldrin" href="#palestra-aldrin">"Reflexões sobre os Dogmas que não Latem mais" <br /> Aldrin Leal</a></td>
                   <td></td>
                   <td rowspan="2">Tutorial / Workshop</td>
-                  <td>Exposição</td>
+                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>12:00</td>
-                  <td>Palestra</td>
+                  <td><a id="trigger-ricardo" href="#palestra-ricardo">"Inteligência dos Negócios em Tempo Real usando CEP & BAM" <br /> Ricardo Ferreira</a></td>
                   <td></td>
-                  <td>Exposição</td>
                 </tr>
                 <tr>
                   <td>13:00</td>
@@ -281,28 +467,26 @@
                 </tr>
                 <tr>
                   <td>14:00</td>
-                  <td rowspan='2'>Lightning Talks</td>
-                  <td rowspan='2'>Dojo/Open Space</td>
-                  <td rowspan='2'>Tutorial / Workshop</td>
-                  <td rowspan='2'>Exposição</td>
+                  <td ><a id="trigger-papo" href="#palestra-papo">"Seu futuro está na Nuvem! Como a Amazon pode ajudar sua empresa ou startup a crescer e a prosperar" <br /> José Papo</a></td>
+                  <td rowspan="2">Dojo / Open Space</td>
+                  <td rowspan="2">Tutorial / Workshop</td>
+                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
-                  <td>15:00</td>
+                  <td>14:50</td>
+                  <td><a id="trigger-jaime" href="#palestra-jaime">"A filosofia do sucesso: como mudar o mundo de dentro para fora" <br /> Jaime Schettini</a></td>
+                  
                 </tr>
                 <tr>
-                  <td>16:00</td>
+                  <td>15:40</td>
                   <td colspan="4">Intervalo</td>
                 </tr>
                 <tr>
-                  <td>16:20</td>
+                  <td>16:5</td>
                   <td>#papoSafo / Encerramento</td>
                   <td></td>
-                  <td>Tutorial / Workshop</td>
                   <td></td>
-                </tr>
-                <tr>
-                  <td>18:00</td>
-                  <td colspan="4"></td>
+                  <td></td>
                 </tr>
               </tbody>
             </table>
@@ -356,7 +540,7 @@
                      <li>Graduação em Processamento de Dados (UNAMA/1998)</li>
                      <li>Professor Adjunto I da Faculdade de Computação da UFPA</li>
                      <p>
-                        <a href="https://twitter.com/drsandrobezerra  " target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
+                        <a href="https://twitter.com/drsandrobezerra" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
                         <a href="http://www.ufpa.br/srbo/" target="_blank" title="Blog"><img class="icon" src="imagens/blogspot icon.png" /></a>
                        </p>
                      </p>
@@ -382,39 +566,6 @@
                        	<a href="http://br.linkedin.com/in/jaimeschettini" target="_blank" title="Linkedin"><img class="icon" src="imagens/linkedin.png" /></a>
                        </p>
                      </p>
-                 </td>
-                </tr>
-              </table>
-            </div>
-
-            <div class="talker hide">
-              
-              <table>
-                <tr>
-                  <td>
-                   <img src='imagens/luca_bastos.jpg' />
-                  </td>
-                  <td><h2>Luca Bastos</h2>
-                    <p>
-                       Desenvolvedor do tempo da Carochinha, ávido leitor e praticante sempre interessado em 
-                       metodologias de desenvolvimento desde antes de surgirem a programação modular, programação 
-                       estruturada e todas as demais cuja sofrida evolução redundaram na constatação ainda 
-                       refutada por alguns, de que desenvolvimento de software não é a mesma coisa do que fabricar 
-                       lâmpadas ou construir casas populares.
-                   </p>
-                   <p>Meninos, eu vi. E vivi.</p>
-                   <p>
-                      Hoje trabalho em uma empresa que às vezes vive a dicotomia de lutar para ser ágil e 
-                      entregar software funcionando para alguns clientes que insistem em Gantt charts, escopo 
-                      fechado, desenvolvimento em cascata e outras coisas do tempo do onça. Infelizmente o mundo 
-                      real ainda está lotado de cascateiros. Mas a gente não desiste. E em mesmo em 
-                      clientes estatais, já conseguimos algumas importantes vitórias.
-                      
-                   </p>
-                   
-                   <p>
-                    Obs: Luca Bastos = Luiz Arnaldo de Gusmão Bastos
-                   </p>
                  </td>
                 </tr>
               </table>
@@ -749,17 +900,37 @@
 	    
         	<a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Cadastrar Talk</a>
 
-		<?php include 'pog.php'; ?>
+		<?php  include 'pog.php';?>
         </div>
 
           <div id='inscricoes'>
             <h1>Inscrições</h1>
-            <p>
-              Ops! As inscrições ainda não estão abertas! Mas não se preocupe que não 
-              esqueceremos de você, publicaremos nas redes sociais assim que as inscrições estiverem
-              abertas! Fique ligado!
-            </p>        
-          </div>
+            <p>Para recuperar seu link do PagSeguro, <a id="recupera" href="inscricao/view/RecuperaPagamento.php">clique aqui</a>.</p>
+            <p>Os certificados estarão disponíveis on-line, após o evento. Para gerá-lo, <a id="certificado" href="inscricao/certificado/index.php">clique aqui</a>.</p>
+            <p>Para realizar sua inscrição no evento, selecione uma das categorias abaixo:</p>
+            <div id="main_body">
+                <div id="body">
+                    <div class="box" style="color:#596b3a">
+                        <img src="imagens/inscricoes/individual.gif" alt="" width="300" height="50" />
+                        <p>Selecione esta opção caso você esteja fazendo sua inscrição de forma avulsa, ou seja, o pagamento será efetuado por você e não pela empresa que você trabalha.</p>
+                        <div class="inscricao01">
+                            <a id="individual" href="inscricao/view/CadastrarInscricaoIndividual.php"></a>
+                        </div>
+                    </div>
+                    <div class="box" style="color:#89383f">
+                        <img src="imagens/inscricoes/empresa.gif" alt="" width="300" height="50" />
+                        <p>Selecione esta opção para efetuar múltiplas inscrições por empresa/instituição. <br />O cadastramento de informações da empresa/instituição é obrigatório.</p>
+                        <div class="inscricao02">
+                            <a id="empresa" href="inscricao/view/CadastrarInscricaoEmpresa.php"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main_body">
+                <br>&nbsp;<br><b>O pagamento será efetuado através de:</b><br>
+                <img src="imagens/inscricoes/pagseguro_formas.gif" />
+            </div>
+        </div>
 
           <div id='patrocine'>
             <div class='small-title'>
@@ -861,7 +1032,6 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>
 		( function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];
@@ -882,33 +1052,33 @@
 				}, 1000);
 				return false;
 			});
-		
-		    $(".spinner").remove();
-		    $('.percentage').remove();
-		    $('.sub_vote').prev().remove();
-		    $('.sub_vote').remove();
-		    
-		    $("#proposal_list a").each(function(){
-		    	var stringLink = $(this).attr('href');
-		    	var link = "http://call4paperz.com" + stringLink;
-		    	$(this).attr("href", link);
-		    	console.log($(this).attr('href'));
-		    });
-		    
-		    $('.voting_container').remove();
+
+			$(".spinner").remove();
+			$('.percentage').remove();
+			$('.sub_vote').prev().remove();
+			$('.sub_vote').remove();
+
+			$("#proposal_list a").each(function() {
+				var stringLink = $(this).attr('href');
+				var link = "http://call4paperz.com" + stringLink;
+				$(this).attr("href", link);
+				console.log($(this).attr('href'));
+			});
+
+			$('.voting_container').remove();
 		})
     </script>
     <script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30964233-1']);
-			_gaq.push(['_trackPageview']); (function() {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-30964233-1']);
+		_gaq.push(['_trackPageview']); (function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
 
 		</script>
   </body>
