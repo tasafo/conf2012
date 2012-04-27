@@ -1,4 +1,4 @@
-<!DOCTIPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -149,8 +149,37 @@
               passar a bola pra frente! Doe e troque seus livros! Há pessoas querendo adotá-los. :)
             </p>
             
-            <div id="palestra-abertura" style="display: none">
+            <div style="display: none;">
+            	<div id="palestra-abertura" class="palestra">
+            		<div class="foto-palestrante" >
+            			<p>
+            			<img src='imagens/fabio_aguiar.jpg' /><br />
+            			<a href="https://twitter.com/#!/fabyogr" target="_blank">Fábio Aguiar</a>
+            			</p>
+            			<img src='imagens/luiz_sanches.jpg' /><br />
+            			<a href="http://www.linkedin.com/pub/luiz-sanches/31/947/79" target="_blank">Luiz Sanches</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>Comunidade Aberta com Pessoas Adaptáveis, Simples e Auto-Organizadas</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+            		
+Falaremos sobre um grupo de pessoas que começou falando sobre
+Tecnologia, Desenvolvimento, Open Source e Agilidade no início de 2007
+e que este ano completa 5 anos de existência. Com a focalização do
+grupo em Agilidade e com a vivência do Manifesto Ágil, passamos a
+valorizar mais pessoas do que tecnologia. Chegamos à conclusão de que
+no fundo, tratamos de assuntos relacionados ao desenvolvimento
+pessoal. Com a política de quem dá a ideia, deve executá-la, o membro
+mais novo pode ser também um líder emergente. O Tá safo! tenta tirar
+do sedentarismo cerebral as pessoas da área de TI que insistem em se
+relacionar somente através da tecnologia. E como ninguém é perfeito,
+nem tudo dá certo na implantação de uma ideia. Assim, continuamos
+errando, mas sempre tentando acertar.
+				</p>
             	
+            		</div>
+            	</div>
             </div>
             
             <div style="display: none;">
@@ -201,6 +230,21 @@ Esta palestra faz uma apresentação de uma proposta para melhorar o entendiment
             	<p>
             		<strong>Resumo</strong><br/>
 					A definir.            	
+            		</div>
+            	</div>
+            </div>
+            
+            <div style="display: none;">
+            	<div id="palestra-pigor" class="palestra">
+            		<div class="foto-palestrante" >
+            			<img src='imagens/paulo_igor.jpg' /><br />
+            			<a href="https://twitter.com/#!/pigodinho" target="_blank">Paulo Igor</a>
+            		</div>
+            		<div class="conteudo-palestra">
+            			<h3>JRuby: Explorando um mundo de possibilidades</h3>
+            	<p>
+            		<strong>Resumo</strong><br/>
+            		Vou de Java? Ou vou de Ruby? Quer saber, vai de JRuby, uma implementação 100% Java da linguagem Ruby, e com um mundo de possibilidades usando uma linguagem poderosa e dinâmica como o Ruby e o já conhecido Java, ambas utilizando o poder da JVM e todo o toolbox de ambas as linguagens! Durante a palestra vamos mostrar alguns exemplos e explorar as possibilidades dessa poderosa combinação!
             		</div>
             	</div>
             </div>
@@ -341,7 +385,6 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
             	</div>
             </div>
             
-			<span style="color: red">* Programação sujeita a alteração</span>
             <table id='event'>
               <thead>
                 <th></th>
@@ -362,7 +405,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>9:00</td>
-                  <td>"Comunidade Aberta com Pessoas Adaptáveis, Simples e Auto-Organizadas" <br /> Fábio Aguiar e Luiz Sanches</td>
+                  <td><a id="trigger-abertura" href="#palestra-abertura">"Comunidade Aberta com Pessoas Adaptáveis, Simples e Auto-Organizadas" <br /> Fábio Aguiar e Luiz Sanches</a></td>
                   <td colspan="2"></td>
                   <td rowspan="2"> Exposição</td>
                 </tr>
@@ -392,7 +435,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>14:00</td>
-                  <td>a definir <br /> Paulo Igor</td>
+                  <td><a id="trigger-pigor" href="#palestra-pigor">"JRuby: Explorando um mundo de possibilidades"<br /> Paulo Igor</a></td>
                   <td rowspan='2'>Dojo/Open Space</td>
                    <td rowspan='2'>Dojo/Open Space</td>
                   <td rowspan='3'>Exposição</td>
@@ -481,8 +524,15 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>15:40</td>
                   <td colspan="4">Intervalo</td>
                 </tr>
+                 <tr>
+                  <td>16:00</td>
+                  <td>Lightning Talks (5)</td>
+                  <td></td>
+                  <td></td>
+                  <td>Exposição</td>
+                </tr>
                 <tr>
-                  <td>16:5</td>
+                  <td>16:50</td>
                   <td>#papoSafo / Encerramento</td>
                   <td></td>
                   <td></td>
@@ -490,6 +540,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
               </tbody>
             </table>
+            <strong style="color: red">* O Doctor Lanches e Restaurante comercializará o almoço nos dois dias do evento.</strong>
           </div>
 
           <div id='palestrantes'>
