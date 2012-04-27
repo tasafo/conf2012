@@ -1,0 +1,55 @@
+#main_body{
+	width:100%; 
+	background-color: #FFFFFF; 
+	height:auto; 
+}
+
+#body{
+	width: 860px; 
+	margin:0 auto; 
+	height:auto;
+}
+
+#body .box {
+    float: left;
+    padding-right:29px;
+    width: 300px;
+	height:auto;
+	margin-top:10px;
+	font-size: 10px;
+}
+
+#body p{
+	margin-bottom: 20px;
+	font-size:16px; 
+	line-height: 20px;
+	padding-left:25px;
+    margin-top: 10px;
+}
+
+.inscricao01 a, .inscricao02 a {
+    float: left;
+    height: 42px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+	left:100px;
+}
+
+.inscricao01 a {
+    background: url(imagens/inscricoes/insc-ind.png) no-repeat scroll 0 0 transparent;
+    width: 132px;
+}
+
+.inscricao01 a:hover{
+	background: url(imagens/inscricoes/insc-ind02.png) no-repeat scroll 0 0 transparent;
+}
+
+.inscricao02 a {
+    background: url(imagens/inscricoes/insc-emp.png) no-repeat scroll 0 0 transparent;
+    width: 132px;
+}
+
+.inscricao02 a:hover{
+	background: url(imagens/inscricoes/insc-emp02.png) no-repeat scroll 0 0 transparent;
+}
