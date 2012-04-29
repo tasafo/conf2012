@@ -7,13 +7,66 @@
     <meta name="Keywords" content="Tá Safo, Desenvolvimento de Software, Desenvolvimento de Pessoas, Desenvolvimento Ágil, Agile, Agilidade, Comunidade, Gestão" />
 
     <title>Tá Safo Conf 2012</title>
-    <link href="tasafoconf.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/tasafoconf.css" media="all" rel="stylesheet" type="text/css">
     <link href="inscricoes.css" rel="stylesheet" type="text/css" media="screen" />
     <script type="text/javascript" src="inscricao/view/js/jquery/jquery.js"></script>
     <script type="text/javascript" src="inscricao/view/js/jquery/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     <link rel="stylesheet" type="text/css" href="inscricao/view/js/jquery/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
     <script type="text/javascript" src="inscricao/view/js/inscricao.js"></script>
     <script type="text/javascript" src="palestras.js"></script>
+    <script type="text/javascript" src="js/jquery.timers-1.1.2.js" ></script>
+<script type='text/javascript' src='js/jQueryRotate.js'></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	 $("#ondas1").everyTime(4, function(){						 
+	 $("#ondas1").animate({top:"380px"}, 1500).animate({top:"410px"}, 1500);	
+  });
+		  
+});
+
+$(document).ready(function(){
+	 $("#ondas2").everyTime(6, function(){						 
+	 $("#ondas2").animate({top:"390px"}, 1500).animate({top:"380px"}, 1500);	
+  });
+  
+});
+   
+$(document).ready(function(){
+	 $("#ondas3").everyTime(6, function(){						 
+	 $("#ondas3").animate({top:"300px"}, 1500).animate({top:"320px"}, 1500);	
+  });
+  
+});
+
+$(document).ready(function(){
+	 $("#ondas4").everyTime(6, function(){						 
+	 $("#ondas4").animate({top:"280px"}, 1500).animate({top:"250px"}, 1500);	
+  });
+  
+});
+
+$(document).ready(function(){
+	 $("#ondas5").everyTime(6, function(){						 
+	 $("#ondas5").animate({top:"230px"}, 1500).animate({top:"260px"}, 1500);	
+  });
+  
+});
+
+$(document).ready(function(){
+	 $("#ondas6").everyTime(6, function(){						 
+	 $("#ondas6").animate({top:"240px"}, 1500).animate({top:"210px"}, 1500);	
+  });
+  
+});
+
+$(document).ready(function(){
+	 $("#box-barco").everyTime(6, function(){						 
+	 $("#box-barco").animate({top:"50px"}, 1500).animate({top:"65px"}, 1500);	
+  });
+  
+});
+</script>
   </head>
   <body>
     <div id="fb-root"></div>
@@ -32,12 +85,21 @@
             <li><a href='#contato'>Contato</a></li>
           </ul>
         </div>
-        <img src='imagens/cartaz.png' />
-        <div class='nav-menu'>
-          <ul>
-
-          </ul>
+        <div id="arte">
+    	<div id="box-baloes">
+        	<div id="baloes"></div>
         </div>
+    	<div id="ondas6"></div>
+        <div id="ondas5"></div>
+        <div id="ondas4"></div>
+        <div id="ondas3"></div>
+         <div id="box-barco">
+        	<div id="barco"></div>
+        </div>
+        <div id="ondas2"></div>
+        <div id="ondas1"></div>
+        <div id="faixa"></div>
+    </div>
       </div>
       <div id='main'>
         <div id ="sidebar">
