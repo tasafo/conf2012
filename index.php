@@ -59,7 +59,7 @@
             <div class="logo-patrocinador"><img src='imagens/img-gold.png' /><br /></div>
             
              <h3>Silver</h3>
-            <div class="logo-patrocinador"><img src='imagens/img-gold.png' /><br /></div>
+            <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
             
             <h1>Apoio</h1>
             <a href="http://www.cesupa.br/" target="_blank"><img src='imagens/cesupa.jpg' class="apoio" /></a>
