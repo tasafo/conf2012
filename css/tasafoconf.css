@@ -1,0 +1,349 @@
+/*Estrutura padrão site*/
+
+body {
+  margin: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  background:url(../imagens/backgroundSite.jpg) repeat scroll 0 0;
+  background-color: #FEE;
+}
+h1 {
+	margin-top: 0px;
+	padding-top: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #543014;
+}
+p, li {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #313332;
+}
+a:link{
+	text-decoration: none;
+}
+.link {
+	color: #543014;
+	font-weight: bold;
+	text-decoration: none;
+	padding:2px;
+}
+.link:hover {
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #543014;
+	padding:2px;
+}
+
+/*Fim Estrutura padrão site*/
+
+#container {
+  width: 100%;
+  height:100%;
+  float:left;
+  margin:0px;
+  padding:0px;
+}
+#header{
+  width:100%;
+  padding:0px;
+  margin: 0 auto;
+}
+#main-nav-menu {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height:73px;
+	background-image: url(../imagens/bg_menu.png);
+	background-repeat: repeat-x;
+	padding:10px 0px 0px 0px;
+	margin:0px;
+	top:0;
+	left:0px;
+}
+#main-nav-menu ul{
+	list-style-type:none;
+	padding: 0px;
+	width: 1024px;
+	height:25px;
+	margin: 0px auto;
+	background-color:transparent;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.nav-menu li {
+  margin-left: 20px;
+  float:left;
+  width:auto;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight:normal;
+}
+
+.nav-menu li a:hover {
+  text-decoration: underline;
+}
+#arte {
+	width:100%;
+	height:565px;
+	position:relative;
+	background-color:transparent;
+}
+#arte #box-baloes{
+	width:640px;
+	height:210px;
+	padding: 0px;
+	margin: 0px auto;
+	position: relative;
+	top:60px;
+	left:0px;
+}
+#box-baloes #baloes {
+	background-image: url(../imagens/baloes2.png);
+	background-repeat: no-repeat;
+	height: 249px;
+	width: 574px;
+	position: relative;
+	z-index: 8;
+	left: 0px;
+	top: 0px;
+}
+#arte #ondas6 {
+	background-image: url(../imagens/onda6.png);
+	background-repeat: repeat-x;
+	height: 229px;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 250px;
+}
+#arte #ondas5 {
+	background-image: url(../imagens/onda5.png);
+	background-repeat: repeat-x;
+	height: 227px;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	left: 0px;
+	top: 270px;
+}
+#arte #ondas4 {
+	background-image: url(../imagens/onda4.png);
+	background-repeat: repeat-x;
+	background-position: 80px 0px;
+	height: 250px;
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+	left: 0px;
+	top: 255px;
+}
+#arte #ondas3 {
+	background-image: url(../imagens/onda3.png);
+	background-repeat: repeat-x;
+	background-position: 120px 0px;
+	height: 185px;
+	width: 100%;
+	position: absolute;
+	z-index: 4;
+	left: 0px;
+	top: 318px;
+}
+#arte #box-barco{
+	width:670px;
+	height:241px;
+	padding: 0px;
+	margin: 0px auto;
+	position: relative;
+	top:60px;
+	left:0px;
+}
+#box-barco #barco {
+	background-image: url(../imagens/barco2.png);
+	background-repeat: no-repeat;
+	height: 241px;
+	width: 374px;
+	position: absolute;
+	z-index: 5;
+	left: 0px;
+	top: 0px;
+}
+#arte #ondas2{
+	background-image: url(../imagens/onda2.png);
+	background-repeat: repeat-x;
+	background-position: 120px 0px;
+	height:155px;
+	width: 100%;
+	position: absolute;
+	z-index: 6;
+	left: 0px;
+	top: 368px;
+}
+#arte #ondas1 {
+	background: url(../imagens/onda1.png) repeat-x scroll 10px 0px;
+	height: 150px;
+	width: 100%;
+	position: absolute;
+	z-index: 7;
+	top: 400px;
+	-moz-animation: 9s ease-in-out 0s normal none infinite cssOndas1;
+
+}
+#faixa{
+	background-image: url(../imagens/faixa.png);
+	background-repeat: repeat-x;
+	position: absolute;
+	z-index: 10;
+	left: 0px;
+	top: 520px;
+	width: 100%;
+	height:46px;
+}
+ #main {
+	width: 1024px;
+	padding:0px;
+	margin: 40px auto 0 auto;
+	position:relative;
+	z-index: 20;
+}
+#sidebar {
+  float:right;
+}
+#sidebar #links {
+  margin-top: 20px;
+}
+#sidebar #links a {
+  text-decoration:none;
+  color: #543014;
+}
+
+#sidebar a {margin-bottom: 15px;}
+
+h3.patrocinio {
+  margin-top: 0px;
+}
+img.apoio {width: 150px;}
+
+img.patrocinio {width:200px;}
+
+.estilo_banner {
+  -moz-border-radius:5px;
+  border:3px solid #01913F;
+  background-color:#FFFFFF;
+  padding:7px;
+ }
+
+#widget {
+  display: inline-block;
+}
+
+.fb-like {
+  display: inline-block;
+  margin-top: -10px;
+}
+.well {
+  background-color: #02913F;
+  padding: 25px;
+  font-size: 13px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+color: #FFFFFF;
+}
+.well a, .well.numeros a {
+  color: #0000AB;
+}
+.well.numeros h3 {
+  margin: 0px;
+color: #FFFFFF;
+}
+.well.numeros {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.well.numeros b {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.small-title {
+	font-size:18px;
+	margin-left:5px;
+}
+h1.small, h2.small {
+  display: inline-block;
+  border: none;
+  margin-bottom: 0px;
+}
+#content {
+  width: 700px;
+  font-size: 14px;
+}
+table#event {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+table#event td {
+  padding: 7px 12px;
+  text-align: center;
+  color: #7E684D;
+}
+table#event th {
+  color: #543014;
+}
+table#event thead {
+  border-bottom: 3px #543014 solid;
+}
+table#event td {
+  border-bottom: 1px solid #ccc;
+}
+table#event tr.day1, table#event td.day1 {
+  border-bottom: 3px solid #555;
+}
+div#main-social {
+  margin-bottom: 15px;
+  z-index: -1;
+}
+div.talker{
+padding-bottom: 20px;
+}
+
+div.talker td {
+  vertical-align: top;
+  line-height: 25px;
+  padding: 5px;
+  border-bottom: 1px solid ;
+  border-bottom-style: dashed;
+}
+div.talker img {
+  width: 160px;
+  padding: 8px;
+  //border: 8px solid white;
+  border: 1px solid #ececec;
+}
+
+div.talker p, div.talker li {
+  font-size: 14px;
+}
+
+div.talker.aldrin p {
+  font-size: 12px;
+}
+.hide {
+  display: none;
+}
+.box-titulo{
+	width:100%;
+	height:20px;
+	padding:10px;
+	background-color: #01913f;
+	font-size:22px;
+	color:#fff;
+	border-radius: 5px;
+	font-weight:normal;
+}
