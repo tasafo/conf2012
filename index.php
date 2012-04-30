@@ -122,7 +122,7 @@ $(document).ready(function(){
             <div class="logo-patrocinador"><img src='imagens/img-gold.png' /><br /></div>
             
              <h3>Silver</h3>
-            <div class="logo-patrocinador" style="background: black;"><a href="http://coyoti.com.br/" target="_blank"><img style="padding: 10px 0 0 0" src='imagens/coy.png' class="patrocinio" /></a><br /></div>
+            <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
             
             <h1>Apoio</h1>
             <a href="http://www.cesupa.br/" target="_blank"><img src='imagens/cesupa.jpg' class="apoio" /></a>
