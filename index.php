@@ -77,6 +77,7 @@ $(document).ready(function(){
         <div id='main-nav-menu' class='nav-menu'>
           <ul>
             <li><a href='#inicio'>Início</a></li>
+            <li><a href='#local'>Local</a></li>
             <li><a href='#programacao'>Programação</a></li>
             <li><a href='#palestrantes'>Palestrantes</a></li>
             <li><a href='#lightning-talks'>Lightning Talks</a></li>
@@ -198,6 +199,15 @@ $(document).ready(function(){
             <p>Serão 2 dias dedicados exclusivamente para o maior evento já organizado pelo Tá Safo! para celebrarmos os 5 anos de vida da Comunidade!</p>
 
             <p>Venha participar deste evento com muita agilidade, desenvolvimento e tecnologia em palestras, workshops, lightning talks e coding dojos!</p>
+
+          </div>
+
+          <div id='local' class="secao">
+            <h1>Local</h1>
+
+            <p>Cesupa Unidade Av. Almirante Barroso, nº 3775 - Belém-PA</p>
+
+<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17&amp;output=embed"></iframe><br /><small>Visualizar <a href="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17" style="color:#0000FF;text-align:left">Cesupa Almirante Barroso</a> em um mapa maior</small>          
           </div>
 
           <div id='programacao' class="secao">
