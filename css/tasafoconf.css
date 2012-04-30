@@ -21,6 +21,17 @@ p, li {
 }
 a:link{
 	text-decoration: none;
+        color: #015DAA;
+}
+
+a:link:visited{
+	text-decoration: none;
+        color: #015DAA;
+}
+
+a:link:hover{
+	text-decoration: underline;
+        color: #543014;
 }
 .link {
 	color: #543014;
