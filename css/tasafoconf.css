@@ -294,6 +294,10 @@ h1.small, h2.small {
   width: 700px;
   font-size: 14px;
 }
+
+#content .secao{
+    margin: 50px 0 0 0;
+}
 table#event {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   border-collapse: collapse;

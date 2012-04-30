@@ -192,7 +192,7 @@ $(document).ready(function(){
 
 
         <div id='content'>
-          <div id='inicio'>
+          <div id='inicio' class="secao">
             <h1>Bem vindo ao Tá Safo Conf 2012!</h1>
 
             <p>Serão 2 dias dedicados exclusivamente para o maior evento já organizado pelo Tá Safo! para celebrarmos os 5 anos de vida da Comunidade!</p>
@@ -200,7 +200,7 @@ $(document).ready(function(){
             <p>Venha participar deste evento com muita agilidade, desenvolvimento e tecnologia em palestras, workshops, lightning talks e coding dojos!</p>
           </div>
 
-          <div id='programacao'>
+          <div id='programacao' class="secao">
             <h1>Programação</h1>
             
             <p>
@@ -606,7 +606,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
             <strong style="color: red">* O Doctor Lanches e Restaurante comercializará o almoço nos dois dias do evento.</strong>
           </div>
 
-          <div id='palestrantes'>
+          <div id='palestrantes' class="secao">
             <h1>Palestrantes</h1>
 
             <div class="talker">
@@ -1001,23 +1001,9 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
             </div>
 
         </div>
-        <div id="lightning-talks">
-        	<h1>Lightning Talks</h1>
-        	<p>
-        		Está aberta a chamada de propostas para as Lightning Talks para o Tá Safo! Conf. Será uma rodada de palestras-relâmpago de no máximo 
-        		10 minutos, com tema livre. Tudo isso da maneira do Tá Safo! e num ambiente leve e descontraído. 
-        		Você pode cadastrar sua talk no <a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Call4paperz</a>, mas não esqueça de twittar :).
-        		Então, se você gostaria de compartilhar algo conosco, não deixe de cadastrar sua proposta!
-        		
-        		
-        	</p>
-	    
-        	<a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Cadastrar Talk</a>
+        
 
-		<?php  include 'pog.php';?>
-        </div>
-
-          <div id='inscricoes'>
+          <div id='inscricoes' class="secao">
             <h1>Inscrições</h1>
             <p>Para recuperar seu link do PagSeguro, <a id="recupera" href="inscricao/view/RecuperaPagamento.php">clique aqui</a>.</p>
             <p>Os certificados estarão disponíveis on-line, após o evento. Para gerá-lo, <a id="certificado" href="inscricao/certificado/index.php">clique aqui</a>.</p>
@@ -1046,7 +1032,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
             </div>
         </div>
             
-            <div id="cursos">
+            <div id="cursos" class="secao">
                 <h1>Cursos Parceiros</h1>
                 <div>
                     <h2>Empresa Adaptworks</h2>
@@ -1059,7 +1045,23 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 
             </div>
 
-          <div id='patrocine'>
+<div id="lightning-talks" class="secao">
+        	<h1>Lightning Talks</h1>
+        	<p>
+        		Está aberta a chamada de propostas para as Lightning Talks para o Tá Safo! Conf. Será uma rodada de palestras-relâmpago de no máximo 
+        		10 minutos, com tema livre. Tudo isso da maneira do Tá Safo! e num ambiente leve e descontraído. 
+        		Você pode cadastrar sua talk no <a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Call4paperz</a>, mas não esqueça de twittar :).
+        		Então, se você gostaria de compartilhar algo conosco, não deixe de cadastrar sua proposta!
+        		
+        		
+        	</p>
+	    
+        	<a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Cadastrar Talk</a>
+
+		<?php  include 'pog.php';?>
+        </div>
+
+            <div id='patrocine' class="secao">
             <div class='small-title'>
               <h1 class='small'>Patrocine! </h1> <h2 class='small'>Estimativa de 350 pessoas!</h2>
             </div>
