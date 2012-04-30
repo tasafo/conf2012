@@ -82,6 +82,7 @@ $(document).ready(function(){
             <li><a href='#lightning-talks'>Lightning Talks</a></li>
             <li><a href='#inscricoes'>Inscrições</a></li>
             <li><a href='#patrocine'>Patrocine!</a></li>
+            <li><a href='#cursos'>Cursos Parceiros</a></li>
             <li><a href='#contato'>Contato</a></li>
           </ul>
         </div>
@@ -1044,6 +1045,19 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 <img src="imagens/inscricoes/pagseguro_formas.gif" />
             </div>
         </div>
+            
+            <div id="cursos">
+                <h1>Cursos Parceiros</h1>
+                <div>
+                    <h2>Empresa Adaptworks</h2>
+                    <h3><a href="http://www.adaptworks.com.br/treinamento/Management-3.0">Management 3.0 - Adaptworks</a></h3>
+                    <p>
+                        Para os participantes do evento TáSafo, concederemos 15% de desconto no pagamento parcelado ou 20% para pagamento à vista, lembrando que a primeira parcela ou parcela única, deverá ser realizada sempre 10 dias antes do treinamento, para que possamos garantir a participação do aluno.
+                    </p>
+                    <p><strong>Contato para inscrição:</strong> Joana Fernandes <strong>jfernandes@adaptworks.com.br</strong></p>
+                </div>
+                
+            </div>
 
           <div id='patrocine'>
             <div class='small-title'>
