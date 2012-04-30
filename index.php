@@ -1001,21 +1001,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
             </div>
 
         </div>
-        <div id="lightning-talks">
-        	<h1>Lightning Talks</h1>
-        	<p>
-        		Está aberta a chamada de propostas para as Lightning Talks para o Tá Safo! Conf. Será uma rodada de palestras-relâmpago de no máximo 
-        		10 minutos, com tema livre. Tudo isso da maneira do Tá Safo! e num ambiente leve e descontraído. 
-        		Você pode cadastrar sua talk no <a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Call4paperz</a>, mas não esqueça de twittar :).
-        		Então, se você gostaria de compartilhar algo conosco, não deixe de cadastrar sua proposta!
-        		
-        		
-        	</p>
-	    
-        	<a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Cadastrar Talk</a>
-
-		<?php  include 'pog.php';?>
-        </div>
+        
 
           <div id='inscricoes'>
             <h1>Inscrições</h1>
@@ -1058,6 +1044,22 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </div>
                 
             </div>
+
+<div id="lightning-talks">
+        	<h1>Lightning Talks</h1>
+        	<p>
+        		Está aberta a chamada de propostas para as Lightning Talks para o Tá Safo! Conf. Será uma rodada de palestras-relâmpago de no máximo 
+        		10 minutos, com tema livre. Tudo isso da maneira do Tá Safo! e num ambiente leve e descontraído. 
+        		Você pode cadastrar sua talk no <a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Call4paperz</a>, mas não esqueça de twittar :).
+        		Então, se você gostaria de compartilhar algo conosco, não deixe de cadastrar sua proposta!
+        		
+        		
+        	</p>
+	    
+        	<a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Cadastrar Talk</a>
+
+		<?php  include 'pog.php';?>
+        </div>
 
           <div id='patrocine'>
             <div class='small-title'>
