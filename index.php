@@ -1053,7 +1053,15 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                     </p>
                     <p><strong>Contato para inscrição:</strong> Joana Fernandes <strong>jfernandes@adaptworks.com.br</strong></p>
                 </div>
-                
+                <div>
+                    <h2>Workshop Ruby on Rails</h2>
+                    <h3><a href="http://railsforzombies.org">Rails for Zombies</a></h3>
+                    <p>
+                      Venha aprender mais sobre o framework que revolucionou a forma como desenvolvemos para a web! Este workshop aborda os princípios básicos de desenvolvimento com Ruby on Rails, usando um ambiente de ensino com todos os recursos necessários para o aprendizado e a realização dos exercícios de maneira bastante prática e descontraída.
+                    </p>
+                    <p>Garanta já a sua vaga <a href="https://docs.google.com/a/caikesouza.com/spreadsheet/viewform?formkey=dG9mNTRGRUlGWkZqbEk4ZXYxejFxTHc6MQ">preenchendo este formulário</a></p>
+                    <p><strong>Informações Adicionais</strong> <a href='mailto:caike@envylabs.com' target="_blank">caike@envylabs.com</a></p>
+                </div>
             </div>
 
 <div id="lightning-talks" class="secao">
