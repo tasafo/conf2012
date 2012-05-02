@@ -931,12 +931,13 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>
                   	 <h2>Luiz Sanches</h2>
                       <p>
-                        Trabalha com desenvolvimento de software e ensino em informática a mais de 10 anos. É graduado em Sistemas de Informação e pós-graduando em Gestão Ágil de Projetos. Atua como desenvolvedor e administrador de sistemas, via home office, para o Instituto Intercidadania em Recife e atacando de Severino na Nômade Tecnologia.
+                        Trabalha com desenvolvimento de software e ensino em informática a mais de 10 anos. É graduado em Sistemas de Informação e pós-graduando em Gestão Ágil de Projetos. Atua como desenvolvedor e administrador de sistemas, via home office, para o Instituto Intercidadania em Recife e atacando de Severino na <a href="http://nomadetec.com.br" target="_blank">Nômade Tecnologia</a>.
                       </p>
                       <p>
                         Resumindo: pernambucano, paraense, programador, escritor, mochileiro, baixinho, careca e barrigudo.
                         
                         <p>
+                        <a href="https://twitter.com/#!/luizsanxes" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
                        	<a href="http://luizsanches.wordpress.com/" target="_blank" title="Blog"><img class="icon" src="imagens/blogspot icon.png" /></a>
                        	<a href="http://www.linkedin.com/pub/luiz-sanches/31/947/79" target="_blank" title="Linkedin"><img class="icon" src="imagens/linkedin.png" /></a>
                        </p>
