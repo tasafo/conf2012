@@ -205,9 +205,9 @@ $(document).ready(function(){
           <div id='local' class="secao">
             <h1>Local</h1>
 
-            <p>Cesupa Unidade Av. Almirante Barroso, nº 3775 - Belém-PA</p>
+            <p>CESUPA Unidade Av. Almirante Barroso, nº 3775 - Belém-PA</p>
 
-<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17&amp;output=embed"></iframe><br /><small>Visualizar <a href="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17" style="color:#0000FF;text-align:left">Cesupa Almirante Barroso</a> em um mapa maior</small>          
+<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17&amp;output=embed"></iframe><br /><small>Visualizar <a href="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17" style="color:#0000FF;text-align:left">CESUPA Almirante Barroso</a> em um mapa maior</small>          
           </div>
 
           <div id='programacao' class="secao">
