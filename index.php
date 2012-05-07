@@ -508,11 +508,10 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>14:00</td>
-                  <td><a id="trigger-pigor" href="#palestra-pigor">"JRuby: Explorando um mundo de possibilidades"<br /> Paulo Igor</a></td>
-                  <td rowspan='2'>Dojo/Open Space</td>
-                   <td rowspan='2'>Dojo/Open Space</td>
-                  <td rowspan='3'>Exposição</td>
-                 
+                  <td ><a id="trigger-papo" href="#palestra-papo">"Seu futuro está na Nuvem! Como a Amazon pode ajudar sua empresa ou startup a crescer e a prosperar" <br /> José Papo</a></td>
+                  <td rowspan="2">Dojo / Open Space</td>
+                  <td rowspan="2">Tutorial / Workshop</td>
+                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>14:50</td>
@@ -583,11 +582,13 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>14:00</td>
-                  <td ><a id="trigger-papo" href="#palestra-papo">"Seu futuro está na Nuvem! Como a Amazon pode ajudar sua empresa ou startup a crescer e a prosperar" <br /> José Papo</a></td>
-                  <td rowspan="2">Dojo / Open Space</td>
-                  <td rowspan="2">Tutorial / Workshop</td>
-                  <td rowspan="2">Exposição</td>
+                  <td><a id="trigger-pigor" href="#palestra-pigor">"JRuby: Explorando um mundo de possibilidades"<br /> Paulo Igor</a></td>
+                  <td rowspan='2'>Dojo/Open Space</td>
+                   <td rowspan='2'>Dojo/Open Space</td>
+                  <td rowspan='3'>Exposição</td>
+                 
                 </tr>
+                
                 <tr>
                   <td>14:50</td>
                   <td><a id="trigger-jaime" href="#palestra-jaime">"A filosofia do sucesso: como mudar o mundo de dentro para fora" <br /> Jaime Schettini</a></td>
