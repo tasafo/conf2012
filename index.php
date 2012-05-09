@@ -116,7 +116,7 @@ $(document).ready(function(){
             <div class="logo-patrocinador"><a href="http://caelum.com.br/" target="_blank"><img src='imagens/caelum.png' class="patrocinio" /></a><br /></div>
             <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
             <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
-            <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="70" class="patrocinio" /></a><br /></div>
+            
             <h3>Platinum</h3>
             <div class="logo-patrocinador"><img src='imagens/img-gold.png' width="100" height="60" /><br /></div>
             
@@ -125,6 +125,7 @@ $(document).ready(function(){
             
              <h3>Silver</h3>
             <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
+            <div class="logo-patrocinador"><a href="http://www.redeinformatica.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="70" class="patrocinio" /></a><br /></div>
             
             <h1>Apoio</h1>
             <a href="http://www.cesupa.br/" target="_blank"><img src='imagens/cesupa.jpg' class="apoio" /></a>
@@ -148,7 +149,7 @@ $(document).ready(function(){
 
           </div>
 
-          <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script id="twitter-widget-hell" charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
           <script>
 			new TWTR.Widget({
 				version : 2,
@@ -1163,7 +1164,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
             </p>
           </div>
             
-          <div id="lightning-talks" class="secao">
+            <div id="lightning-talks" class="secao">
         	<h1>Lightning Talks</h1>
         	<p>
         		Está aberta a chamada de propostas para as Lightning Talks para o Tá Safo! Conf. Será uma rodada de palestras-relâmpago de no máximo 
@@ -1175,8 +1176,10 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
         	</p>
 	    
         	<a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Cadastrar Talk</a>
-
-		<?php  include 'pog.php';?>
+                <div id="pog-call4pappers">
+                    <?php  include 'pog.php';?>
+                </div>
+		
         </div>  
 
         </div>
@@ -1212,10 +1215,13 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
 				var stringLink = $(this).attr('href');
 				var link = "http://call4paperz.com" + stringLink;
 				$(this).attr("href", link);
-				console.log($(this).attr('href'));
 			});
 
 			$('.voting_container').remove();
+                        
+                        setTimeout(function(){
+                            $("#pog-call4pappers").load("pog.php");
+                        }, 5000);
 		})
     </script>
     <script type="text/javascript">
