@@ -148,7 +148,7 @@ $(document).ready(function(){
 
           </div>
 
-          <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script id="twitter-widget-hell" charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
           <script>
 			new TWTR.Widget({
 				version : 2,
@@ -1163,7 +1163,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
             </p>
           </div>
             
-          <div id="lightning-talks" class="secao">
+            <div id="lightning-talks" class="secao">
         	<h1>Lightning Talks</h1>
         	<p>
         		Está aberta a chamada de propostas para as Lightning Talks para o Tá Safo! Conf. Será uma rodada de palestras-relâmpago de no máximo 
@@ -1175,8 +1175,10 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
         	</p>
 	    
         	<a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Cadastrar Talk</a>
-
-		<?php  include 'pog.php';?>
+                <div id="pog-call4pappers">
+                    <?php  include 'pog.php';?>
+                </div>
+		
         </div>  
 
         </div>
@@ -1212,10 +1214,13 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
 				var stringLink = $(this).attr('href');
 				var link = "http://call4paperz.com" + stringLink;
 				$(this).attr("href", link);
-				console.log($(this).attr('href'));
 			});
 
 			$('.voting_container').remove();
+                        
+                        setTimeout(function(){
+                            $("#pog-call4pappers").load("pog.php");
+                        }, 5000);
 		})
     </script>
     <script type="text/javascript">
