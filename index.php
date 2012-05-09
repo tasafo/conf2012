@@ -230,7 +230,7 @@ $(document).ready(function(){
             			<a href="https://twitter.com/#!/fabyogr" target="_blank">Fábio Aguiar</a>
             			</p>
             			<img src='imagens/luiz_sanches.jpg' /><br />
-            			<a href="http://www.linkedin.com/pub/luiz-sanches/31/947/79" target="_blank">Luiz Sanches</a>
+            			<a href="http://www.linkedin.com/in/luizgrsanches" target="_blank">Luiz Sanches</a>
             		</div>
             		<div class="conteudo-palestra">
             			<h3>Comunidade Aberta com Pessoas Adaptáveis, Simples e Auto-Organizadas</h3>
@@ -939,7 +939,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                         <p>
                         <a href="https://twitter.com/#!/luizsanxes" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
                        	<a href="http://luizsanches.wordpress.com/" target="_blank" title="Blog"><img class="icon" src="imagens/blogspot icon.png" /></a>
-                       	<a href="http://www.linkedin.com/pub/luiz-sanches/31/947/79" target="_blank" title="Linkedin"><img class="icon" src="imagens/linkedin.png" /></a>
+                       	<a href="http://www.linkedin.com/in/luizgrsanches" target="_blank" title="Linkedin"><img class="icon" src="imagens/linkedin.png" /></a>
                        </p>
                       </p>
                  </td>
