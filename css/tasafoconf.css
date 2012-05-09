@@ -296,7 +296,7 @@ h1.small, h2.small {
 }
 
 #content .secao{
-    margin: 50px 0 0 0;
+    padding: 50px 0 0 0;
 }
 table#event {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
