@@ -116,6 +116,7 @@ $(document).ready(function(){
             <div class="logo-patrocinador"><a href="http://caelum.com.br/" target="_blank"><img src='imagens/caelum.png' class="patrocinio" /></a><br /></div>
             <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
             <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
+            <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="70" class="patrocinio" /></a><br /></div>
             <h3>Platinum</h3>
             <div class="logo-patrocinador"><img src='imagens/img-gold.png' width="100" height="60" /><br /></div>
             
@@ -1038,7 +1039,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                     </div>
                 </div>
             </div>
-            <div id="main_body">
+            <div style="margin: 50px 0 0 0; width: 300px;">
                 <br>&nbsp;<br><b>O pagamento será efetuado através de:</b><br>
                 <img src="imagens/inscricoes/pagseguro_formas.gif" />
             </div>
