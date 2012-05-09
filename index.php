@@ -109,24 +109,23 @@ $(document).ready(function(){
             <h1 class='patrocinio'>Patrocínio</h1>
             
             <h3>Diamond</h3>
-            <div class="logo-patrocinador"><a href="http://www.adaptworks.com.br/" target="_blank"><img src='imagens/adaptworks.jpg' class="patrocinio" /></a><br /></div>
-            <div class="logo-patrocinador"><a href="http://www.concretesolutions.com.br/" target="_blank"><img src='imagens/concrete_solutions.png' class="patrocinio" /></a><br /></div>
-            <div class="logo-patrocinador"><a href="http://br.redhat.com/" target="_blank"><img src='imagens/redhat.jpg' class="patrocinio" /></a><br /></div>
-            <div class="logo-patrocinador"><a href="http://aws.amazon.com/pt/" target="_blank"><img src='imagens/aws.png' class="patrocinio" /></a><br /></div>
-            <div class="logo-patrocinador"><a href="http://caelum.com.br/" target="_blank"><img src='imagens/caelum.png' class="patrocinio" /></a><br /></div>
-            <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
-            <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
-            
+                <div class="logo-patrocinador"><a href="http://www.adaptworks.com.br/" target="_blank"><img src='imagens/adaptworks.jpg' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.concretesolutions.com.br/" target="_blank"><img src='imagens/concrete_solutions.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://br.redhat.com/" target="_blank"><img src='imagens/redhat.jpg' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://aws.amazon.com/pt/" target="_blank"><img src='imagens/aws.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://caelum.com.br/" target="_blank"><img src='imagens/caelum.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
             <h3>Platinum</h3>
             <div class="logo-patrocinador"><img src='imagens/img-gold.png' width="100" height="60" /><br /></div>
             
-             <h3>Gold</h3>
-            <div class="logo-patrocinador"><img src='imagens/img-gold.png' /><br /></div>
+            <h3>Gold</h3>
+                <div class="logo-patrocinador"><img src='imagens/img-gold.png' /><br /></div>
             
-             <h3>Silver</h3>
-            <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
-            <div class="logo-patrocinador"><a href="http://www.redeinformatica.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="70" class="patrocinio" /></a><br /></div>
-            
+            <h3>Silver</h3>
+                <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.redeinformatica.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="70" class="patrocinio" /></a><br /></div>
+
             <h1>Apoio</h1>
             <a href="http://www.cesupa.br/" target="_blank"><img src='imagens/cesupa.jpg' class="apoio" /></a>
           </div>
