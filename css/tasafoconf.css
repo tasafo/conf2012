@@ -239,6 +239,11 @@ h3.patrocinio {
 }
 img.apoio {width: 150px;}
 
+#sidebar #box-patrocinio .logo-patrocinador{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
 img.patrocinio {width:200px;}
 
 .estilo_banner {
