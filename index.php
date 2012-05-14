@@ -82,7 +82,6 @@ $(document).ready(function(){
             <li><a href='#palestrantes'>Palestrantes</a></li>
             <li><a href='#lightning-talks'>Lightning Talks</a></li>
             <li><a href='#inscricoes'>Inscrições</a></li>
-            <li><a href='#patrocine'>Patrocine!</a></li>
             <li><a href='#cursos'>Cursos Parceiros</a></li>
             <li><a href='#contato'>Contato</a></li>
           </ul>
@@ -117,12 +116,7 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.idopter.com/" target="_blank"><img src='imagens/idopter-logo.png' class="patrocinio" /></a><br /></div>
-            <h3>Platinum</h3>
-            <div class="logo-patrocinador"><img src='imagens/img-gold.png' width="100" height="60" /><br /></div>
-            
-            <h3>Gold</h3>
-                <div class="logo-patrocinador"><img src='imagens/img-gold.png' /><br /></div>
-            
+
             <h3>Silver</h3>
                 <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.redeinformatica.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="75" class="patrocinio" /></a><br /></div>
@@ -1066,91 +1060,6 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                     <p><strong>Informações Adicionais</strong> <a href='mailto:caike@envylabs.com' target="_blank">caike@envylabs.com</a></p>
                 </div>
             </div>
-
-            <div id='patrocine' class="secao">
-            <div class='small-title'>
-              <h1 class='small'>Patrocine! </h1> <h2 class='small'>Estimativa de 350 pessoas!</h2>
-            </div>
-
-            <p class="well">
-              Para saber mais sobre como patrocinar o evento, mande um email para
-              <a href='mailto:tasafoorg@gmail.com' target="_blank">tasafoorg@gmail.com</a>
-            </p>
-
-            <p>
-              O <b>Tá Safo</b> é uma comunidade originada em Belém no estado do Pará, que vem 
-              representando e buscando a integração em toda a região norte do país, atuando 
-              fortemente no estado de origem e nas regiões próximas. Hoje a comunidade atua 
-              como integradora junto a outras comunidades e grupos da região que estão buscando 
-              a inovação, a disseminação do conhecimento e de novas formas de empreender, com o
-              objetivo maior de formação do capital intelectual e elevação da qualidade.
-            </p>
-
-            <p>
-              Desde 2009 o <b>Tá Safo</b> vem promovendo vários eventos, incluindo alguns nacionalmente 
-              conhecidos como o 
-              <a href="http://maredeagilidade.com.br/eventos_passados/belem/11-2009/" target="_blank">Maré de Agilidade (2009)</a>
-              e o 
-              <a href="http://at2011.agiletour.org/en/belem.html" target="_blank">Agile Tour (2011)</a>.
-            </p>
-
-
-            <p>
-              Desses um bem 
-              representativo e conhecido por todos na comunidade são os encontros do 
-              <a href="http://tasafo.wordpress.com/tasafoemacao/" target="_blank">#tasafoemacao</a>, além dos 
-              coding dojos, hora do desapego, 
-              papo safo, entre outras iniciativas realizadas ao longo desses anos. Nesses eventos e 
-              encontros tivemos públicos de até 300 pessoas e esperamos esse ano ultrapassar esse 
-              número.
-            </p>
-
-            <div class="well numeros">
-              <h3>Principais meios de comunicação da comunidade</h3>
-              <b>300 inscritos</b> na <a href="http://br.groups.yahoo.com/group/safos/" target="_blank">lista de discussão</a><br>
-              <b>500 amigos</b> no <a href="http://facebook.com/comunidadetasafo" target="_blank">Facebook</a><br>
-              <b>700 seguidores</b> no twitter <a href="https://twitter.com/#!/tasafo" target="_blank">@tasafo</a><br>
-              <b>1000 visitas mensais</b> no <a href="http://tasafo.org/" target="_blank">site oficial do Tá Safo!</a>
-            </div>
-
-            <p>
-              Todos esses números contam com uma diversidade enorme de pessoas participantes 
-              que incluem profissionais, empreendedores, estudantes e todos vivendo em um momento
-              de aquecimento do mercado local com as novas iniciativas do governo, grandes 
-              empreendimentos e o surgimento de várias startups (30 mapeadas pela AmazonStartup) 
-              que mostram um pouco do momento propício para novas iniciativas e oportunidades na 
-              região.
-            </p>
-
-            <p>
-              Esse ano o <b>Tá Safo</b> completa 5 anos e por isso será realizado um evento 
-              comemorativo que reunirá algumas das ações que a comunidade realizou nesses anos 
-              como o <b>#tasafoemacao</b>, <b>#horadodesapego</b>, <b>#papoSafo</b>, 
-              <b>lighting talks</b>, <b>palestras</b>, 
-              <b>workshops</b>, <b>open spaces</b>, <b>coding dojos</b> e tudo isso em dois dias de evento. O nome do 
-              evento e os dias foram escolhidos através de uma enquete feita com todos do Tá Safo 
-              que decidiram realizar o <b>Tá Safo Conf 2012</b> nos dias <b>9 e 10 de junho de 2012</b>.
-            </p>
-
-            <p>
-              O objetivo desse evento não é só comemorar essa jornada de 5 anos, mas 
-              consolidar todo esse movimento e o momento que a comunidade e a região vivem, 
-              promovendo o contato entre as pessoas e as empresas que acreditam no potencial da 
-              região. Além de oferecer a oportunidade de todos os envolvidos conhecerem o 
-              potencial da mão de obra especializada e o enorme mercado inexplorado que existe 
-              na região norte.
-            </p>
-
-            <p>
-              Conheça mais sobre o <b>Tá Safo Conf 2012</b> e nossas cotas de patrocínio para 
-              participar desse importante momento de forma privilegiada.
-            </p>
-
-            <p class="well">
-              Para saber mais sobre como patrocinar o evento, mande um email para
-              <a href='mailto:tasafoorg@gmail.com' target="_blank">tasafoorg@gmail.com</a>
-            </p>
-          </div>
 
           <div id='contato'>
             <h1>Contato</h1>
