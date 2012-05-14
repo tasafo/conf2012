@@ -461,7 +461,6 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 <th>Auditório</th>
                 <th>Sala 1</th>
                 <th>Sala 2</th>
-                <th>Salão</th>
               </thead>
               <tbody>
                 <tr class='day1'>
@@ -470,13 +469,12 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 <tr>
                   <td>8:00</td>
                   <td>Credenciamento / Café da Manhã</td>
-                  <td colspan="3"></td>
+                  <td colspan="2"></td>
                 </tr>
                 <tr>
                   <td>9:00</td>
                   <td><a id="trigger-abertura" href="#palestra-abertura">"Comunidade Aberta com Pessoas Adaptáveis, Simples e Auto-Organizadas" <br /> Fábio Aguiar e Luiz Sanches</a></td>
                   <td colspan="2"></td>
-                  <td rowspan="2"> Exposição</td>
                 </tr>
                 <tr>
                   <td>9:50</td>
@@ -485,13 +483,12 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>10:40</td>
-                  <td colspan="4">Intervalo</td>
+                  <td colspan="3">Intervalo</td>
                 </tr>
                 <tr>
                   <td>11:00</td>
                   <td><a id="trigger-caike" href="#palestra-caike">"Modelagem Orientada a Interfaces" <br /> Caike Souza</a></td>
                   <td colspan="2"></td>
-                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>11:50</td>
@@ -500,14 +497,13 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>12:30</td>
-                  <td colspan="4">Almoço</td>
+                  <td colspan="3">Almoço</td>
                 </tr>
                 <tr>
                   <td>14:00</td>
                   <td ><a id="trigger-papo" href="#palestra-papo">"Seu futuro está na Nuvem! Como a Amazon pode ajudar sua empresa ou startup a crescer e a prosperar" <br /> José Papo</a></td>
                   <td rowspan="2">Dojo / Open Space</td>
                   <td rowspan="2">Tutorial / Workshop</td>
-                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>14:50</td>
@@ -516,21 +512,22 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 <tr>
                   <td>15:40</td>
                   <td><a id="trigger-magno" href="#palestra-magno">"Ao invés de demitir sua empresa, que tal se empenhar para melhorá-la?" <br> Alexandre Magno</a></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td>16:30</td>
-                  <td colspan="4">Intervalo</td>
+                  <td colspan="3">Intervalo</td>
                 </tr>
                 <tr>
                   <td>16:50</td>
                   <td>Lightning Talks (5)</td>
                   <td></td>
                   <td></td>
-                  <td>Exposição</td>
                 </tr>
 <tr class='day1'>
                   <td>17:40</td>
-                  <td colspan="4">Enceramento do primeiro dia</td>
+                  <td colspan="3">Enceramento do primeiro dia</td>
                 </tr>
 
                 <tr class='day2'>
@@ -542,14 +539,12 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>Credenciamento / Café da Manhã</td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td>9:00</td>
                   <td><a id="trigger-manoel" href="#palestra-manoel">"Não tolero falhas e no meu time tem um bando de retardados! E agora?" <br /> Manoel Pimentel</a></td>
                   <td></td>
                   <td rowspan="2">Tutorial / Workshop</td>
-                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>9:50</td>
@@ -558,14 +553,13 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>10:40</td>
-                  <td colspan="4">Intervalo</td>
+                  <td colspan="3">Intervalo</td>
                 </tr>
                 <tr>
                   <td>11:00</td>
                   <td><a id="trigger-aldrin" href="#palestra-aldrin">"Reflexões sobre os Dogmas que não Latem mais" <br /> Aldrin Leal</a></td>
                   <td></td>
                   <td rowspan="2">Tutorial / Workshop</td>
-                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>12:00</td>
@@ -574,14 +568,13 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>13:00</td>
-                  <td colspan="4">Almoço</td>
+                  <td colspan="3">Almoço</td>
                 </tr>
                 <tr>
                   <td>14:00</td>
                   <td><a id="trigger-pigor" href="#palestra-pigor">"JRuby: Explorando um mundo de possibilidades"<br /> Paulo Igor</a></td>
                   <td rowspan='2'>Dojo/Open Space</td>
                    <td rowspan='2'>Dojo/Open Space</td>
-                  <td rowspan='3'>Exposição</td>
                  
                 </tr>
                 
@@ -599,18 +592,16 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>Lightning Talks (5)</td>
                   <td></td>
                   <td></td>
-                  <td>Exposição</td>
                 </tr>
                 <tr>
                   <td>16:50</td>
                   <td>#papoSafo / Encerramento</td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
-            <strong style="color: red">* O Doctor Lanches e Restaurante comercializará o almoço nos dois dias do evento.</strong>
+            <strong style="color: red">* A "Doctor Lanches e Restaurante" comercializará o almoço nos dois dias do evento.</strong>
           </div>
 
           <div id='palestrantes' class="secao">
