@@ -116,11 +116,13 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.idopter.com/" target="_blank"><img src='imagens/idopter-logo.png' class="patrocinio" /></a><br /></div>
-<div class="logo-patrocinador"><a href="http://ramonrabello.blogspot.com.br/" target="_blank"><img height="100" src='imagens/android_01.png' class="patrocinio" /></a><br /></div>
+
 
             <h3>Silver</h3>
                 <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.redeinformatica.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="75" class="patrocinio" /></a><br /></div>
+<div class="logo-patrocinador"><a href="http://www.twitter.com/androidnarede" target="_blank"><img height="100" src='imagens/androidnarede_logo.png' class="patrocinio" /></a><br /></div>
+<div class="logo-patrocinador"><a href="http://solontecnologia.com.br/" target="_blank"><img height="100" src='imagens/logo_solon.jpg' class="patrocinio" /></a><br /></div>
 
             <h1>Apoio</h1>
             <a href="http://www.cesupa.br/" target="_blank"><img src='imagens/cesupa.jpg' class="apoio" /></a>
