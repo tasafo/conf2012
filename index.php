@@ -121,6 +121,7 @@ $(document).ready(function(){
             <h3>Silver</h3>
                 <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.redeinformatica.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="75" class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.nortsys.com.br/" target="_blank"><img src='imagens/nortsys.png' class="patrocinio" /></a><br /></div>
 
             <h1>Apoio</h1>
             <a href="http://www.cesupa.br/" target="_blank"><img src='imagens/cesupa.jpg' class="apoio" /></a>
@@ -307,8 +308,12 @@ Esta palestra faz uma apresentação de uma proposta para melhorar o entendiment
             <div style="display: none;">
             	<div id="palestra-pigor" class="palestra">
             		<div class="foto-palestrante" >
-            			<img src='imagens/paulo_igor.jpg' /><br />
-            			<a href="https://twitter.com/#!/pigodinho" target="_blank">Paulo Igor</a>
+                        <p>
+                			<img src='imagens/paulo_igor.jpg' /><br />
+                			<a href="https://twitter.com/#!/pigodinho" target="_blank">Paulo Igor</a>
+                        </p>
+                        <img src='imagens/mateus_linhares.jpeg' /><br />
+                        <a href="https://twitter.com/#!/mateuslinahres" target="_blank">Mateus Linhares</a>
             		</div>
             		<div class="conteudo-palestra">
             			<h3>JRuby: Explorando um mundo de possibilidades</h3>
@@ -573,7 +578,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>14:00</td>
-                  <td><a id="trigger-pigor" href="#palestra-pigor">"JRuby: Explorando um mundo de possibilidades"<br /> Paulo Igor</a></td>
+                  <td><a id="trigger-pigor" href="#palestra-pigor">"JRuby: Explorando um mundo de possibilidades"<br /> Paulo Igor e Mateus Linhares</a></td>
                   <td rowspan='2'>Dojo/Open Space</td>
                    <td rowspan='2'>Dojo/Open Space</td>
                  
