@@ -118,9 +118,12 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://www.idopter.com/" target="_blank"><img src='imagens/idopter-logo.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.jambu.com.br/" target="_blank"><img src='imagens/jambu.jpeg' class="patrocinio" /></a><br /></div>
 
+
             <h3>Silver</h3>
                 <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.redeinformatica.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="75" class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.twitter.com/androidnarede" target="_blank"><img height="100" src='imagens/androidnarede_logo.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://solontecnologia.com.br/" target="_blank"><img height="100" src='imagens/logo_solon.jpg' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.nortsys.com.br/" target="_blank"><img src='imagens/nortsys.png' class="patrocinio" /></a><br /></div>
 
             <h1>Apoio</h1>
