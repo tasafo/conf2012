@@ -116,6 +116,7 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.idopter.com/" target="_blank"><img src='imagens/idopter-logo.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.jambu.com.br/" target="_blank"><img src='imagens/jambu.jpeg' class="patrocinio" /></a><br /></div>
 
             <h3>Silver</h3>
                 <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
@@ -527,7 +528,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
 <tr class='day1'>
                   <td>17:40</td>
-                  <td colspan="3">Enceramento do primeiro dia</td>
+                  <td colspan="3">Encerramento do primeiro dia</td>
                 </tr>
 
                 <tr class='day2'>
@@ -870,6 +871,28 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                        	<a href="https://twitter.com/#!/pigodinho" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
                        	<a href="http://pauloigor.blogspot.com.br/" target="_blank" title="Blog"><img class="icon" src="imagens/blogspot icon.png" /></a>
                        	<a href="http://www.linkedin.com/in/pigodinho" target="_blank" title="Linkedin"><img class="icon" src="imagens/linkedin.png" /></a>
+                       </p>
+                      </p>
+                 </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="talker">
+              
+              <table>
+                <tr>
+                  <td>
+                   <img src='imagens/mateus_linhares.jpeg' />
+                  </td>
+                  <td>
+                    <h2>Mateus Linhares</h2>
+                      <p>
+                       Trabalha com desenvolvimento de software há 5 anos, com experiência, na maior parte, em Ruby, Java e PHP. Atualmente é Co-Fundador da Idopter Labs, que desenvolve soluções web.
+                       
+                       <p>
+                        <a href="https://twitter.com/#!/mateuslinhares" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
+                        <a href="http://br.linkedin.com/in/mateuslinhares" target="_blank" title="Linkedin"><img class="icon" src="imagens/linkedin.png" /></a>
                        </p>
                       </p>
                  </td>
