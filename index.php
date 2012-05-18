@@ -117,6 +117,7 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.idopter.com/" target="_blank"><img src='imagens/idopter-logo.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.jambu.com.br/" target="_blank"><img src='imagens/jambu.jpeg' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="" target="_blank"><img src='imagens/ingenieux.png' class="patrocinio" /></a><br /></div>
 
 
             <h3>Silver</h3>
@@ -125,6 +126,7 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://www.twitter.com/androidnarede" target="_blank"><img height="100" src='imagens/androidnarede_logo.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://solontecnologia.com.br/" target="_blank"><img height="100" src='imagens/logo_solon.jpg' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.nortsys.com.br/" target="_blank"><img src='imagens/nortsys.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.ideiasmobile.com.br/" target="_blank"><img src='imagens/ideias_mobile.png' class="patrocinio" /></a><br /></div>
 
             <h1>Apoio</h1>
             <a href="http://www.cesupa.br/" target="_blank"><img src='imagens/cesupa.jpg' class="apoio" /></a>
