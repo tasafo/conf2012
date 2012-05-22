@@ -682,7 +682,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>
                   	<h2>Jaime Schettini</h2>
                      <p>
-                      Atuo há mais de 4 anos com desenvolvimento de software e hoje faço parte do time da <a href="http://www.chaordicsystems.com/" target="_blank">Chaordic Systems</a>. Pratico e acredito fortemente nas metodologias ágeis, por achar que elas são o que temos de melhor hoje, pois valorizam as pessoas por trás do software. Tenho a convicção de que precisamos ser, primeiro, melhores pessoas, para depois nos tornarmos melhores profissionais.
+                      Atuo há mais de 4 anos com desenvolvimento de software e hoje faço parte do time da <a href="http://www.chaordicsystems.com/" target="_blank">Chaordic</a>. Pratico e acredito fortemente nas metodologias ágeis, por achar que elas são o que temos de melhor hoje, pois valorizam as pessoas por trás do software. Tenho a convicção de que precisamos ser, primeiro, melhores pessoas, para depois nos tornarmos melhores profissionais.
                      <p>
                        	<a href="https://twitter.com/jaimeschettini" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
                        	<a href="http://jaimesch.blogspot.com.br/" target="_blank" title="Blog"><img class="icon" src="imagens/blogspot icon.png" /></a>
