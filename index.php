@@ -116,13 +116,17 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.idopter.com/" target="_blank"><img src='imagens/idopter-logo.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.jambu.com.br/" target="_blank"><img src='imagens/jambu.jpeg' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="" target="_blank"><img src='imagens/ingenieux.png' class="patrocinio" /></a><br /></div>
 
              
             <h3>Silver</h3>
                 <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.redeinformatica.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="75" class="patrocinio" /></a><br /></div>
-<div class="logo-patrocinador"><a href="http://www.twitter.com/androidnarede" target="_blank"><img height="100" src='imagens/androidnarede_logo.png' class="patrocinio" /></a><br /></div>
-<div class="logo-patrocinador"><a href="http://solontecnologia.com.br/" target="_blank"><img height="100" src='imagens/logo_solon.jpg' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.twitter.com/androidnarede" target="_blank"><img height="100" src='imagens/androidnarede_logo.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://solontecnologia.com.br/" target="_blank"><img height="100" src='imagens/logo_solon.jpg' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.nortsys.com.br/" target="_blank"><img src='imagens/nortsys.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.ideiasmobile.com.br/" target="_blank"><img src='imagens/ideias_mobile.png' class="patrocinio" /></a><br /></div>
 
             <h1>Apoio</h1>
             <div class="logo-patrocinador"><a href="http://www.cesupa.br/" target="_blank"><img src='imagens/logoCESUPA.jpg' class="patrocinio" /></a></div>
@@ -309,8 +313,12 @@ Esta palestra faz uma apresentação de uma proposta para melhorar o entendiment
             <div style="display: none;">
             	<div id="palestra-pigor" class="palestra">
             		<div class="foto-palestrante" >
-            			<img src='imagens/paulo_igor.jpg' /><br />
-            			<a href="https://twitter.com/#!/pigodinho" target="_blank">Paulo Igor</a>
+                        <p>
+                			<img src='imagens/paulo_igor.jpg' /><br />
+                			<a href="https://twitter.com/#!/pigodinho" target="_blank">Paulo Igor</a>
+                        </p>
+                        <img src='imagens/mateus_linhares.jpeg' /><br />
+                        <a href="https://twitter.com/#!/mateuslinahres" target="_blank">Mateus Linhares</a>
             		</div>
             		<div class="conteudo-palestra">
             			<h3>JRuby: Explorando um mundo de possibilidades</h3>
@@ -530,7 +538,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
 <tr class='day1'>
                   <td>17:40</td>
-                  <td colspan="3">Enceramento do primeiro dia</td>
+                  <td colspan="3">Encerramento do primeiro dia</td>
                 </tr>
 
                 <tr class='day2'>
@@ -575,7 +583,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>14:00</td>
-                  <td><a id="trigger-pigor" href="#palestra-pigor">"JRuby: Explorando um mundo de possibilidades"<br /> Paulo Igor</a></td>
+                  <td><a id="trigger-pigor" href="#palestra-pigor">"JRuby: Explorando um mundo de possibilidades"<br /> Paulo Igor e Mateus Linhares</a></td>
                   <td rowspan='2'>Dojo/Open Space</td>
                    <td rowspan='2'>Dojo/Open Space</td>
                  
@@ -674,7 +682,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>
                   	<h2>Jaime Schettini</h2>
                      <p>
-                      Atuo há mais de 4 anos com desenvolvimento de software e hoje faço parte do time da <a href="http://www.chaordicsystems.com/" target="_blank">Chaordic Systems</a>. Pratico e acredito fortemente nas metodologias ágeis, por achar que elas são o que temos de melhor hoje, pois valorizam as pessoas por trás do software. Tenho a convicção de que precisamos ser, primeiro, melhores pessoas, para depois nos tornarmos melhores profissionais.
+                      Atuo há mais de 4 anos com desenvolvimento de software e hoje faço parte do time da <a href="http://www.chaordicsystems.com/" target="_blank">Chaordic</a>. Pratico e acredito fortemente nas metodologias ágeis, por achar que elas são o que temos de melhor hoje, pois valorizam as pessoas por trás do software. Tenho a convicção de que precisamos ser, primeiro, melhores pessoas, para depois nos tornarmos melhores profissionais.
                      <p>
                        	<a href="https://twitter.com/jaimeschettini" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
                        	<a href="http://jaimesch.blogspot.com.br/" target="_blank" title="Blog"><img class="icon" src="imagens/blogspot icon.png" /></a>
@@ -885,6 +893,28 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
               <table>
                 <tr>
                   <td>
+                   <img src='imagens/mateus_linhares.jpeg' />
+                  </td>
+                  <td>
+                    <h2>Mateus Linhares</h2>
+                      <p>
+                       Trabalha com desenvolvimento de software há 5 anos, com experiência, na maior parte, em Ruby, Java e PHP. Atualmente é Co-Fundador da Idopter Labs, que desenvolve soluções web.
+                       
+                       <p>
+                        <a href="https://twitter.com/#!/mateuslinhares" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
+                        <a href="http://br.linkedin.com/in/mateuslinhares" target="_blank" title="Linkedin"><img class="icon" src="imagens/linkedin.png" /></a>
+                       </p>
+                      </p>
+                 </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="talker">
+              
+              <table>
+                <tr>
+                  <td>
                    <img src='imagens/fabio_aguiar.jpg' />
                   </td>
                   <td>
@@ -1049,8 +1079,9 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                     <h3><a href="http://railsforzombies.org">Rails for Zombies</a></h3>
                     <p>
                       Venha aprender mais sobre o framework que revolucionou a forma como desenvolvemos para a web! Este workshop aborda os princípios básicos de desenvolvimento com Ruby on Rails, usando um ambiente de ensino com todos os recursos necessários para o aprendizado e a realização dos exercícios de maneira bastante prática e descontraída, o <a href="http://codeschool.com">CodeSchool</a>.
+                      O conteúdo do workshop é parte dos cursos <a href="http://www.codeschool.com/courses/rails-for-zombies">Rails For Zombies</a> e <a href="http://www.codeschool.com/courses/rails-for-zombies-2">Rails For Zombies 2</a>, e será apresentado <em>presencialmente e em português</em> pelo instrutor.
                     </p>
-                    <p>Garanta já a sua vaga <a href="https://docs.google.com/a/caikesouza.com/spreadsheet/viewform?formkey=dG9mNTRGRUlGWkZqbEk4ZXYxejFxTHc6MQ">preenchendo este formulário</a></p>
+                    <p>Garanta já a sua vaga! <a href="https://docs.google.com/a/caikesouza.com/spreadsheet/viewform?formkey=dG9mNTRGRUlGWkZqbEk4ZXYxejFxTHc6MQ">preenchendo este formulário</a></p>
                     <p><strong>Informações Adicionais</strong> <a href='mailto:caike@envylabs.com' target="_blank">caike@envylabs.com</a></p>
                 </div>
             </div>
