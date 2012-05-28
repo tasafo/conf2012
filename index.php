@@ -306,7 +306,7 @@ Esta palestra faz uma apresentação de uma proposta para melhorar o entendiment
             			<h3>Desafio de um programa de melhorias usando conceitos ágeis</h3>
             	<p>
             		<strong>Resumo</strong><br/>
-					A definir.            	
+					Estamos vivenciando um cenário onde organizações têm empregado esforços substanciais na melhoria dos seus processos com base em modelos de qualidade, tais como o CMMI e MPS.BR. Adicionalmente, estas organizações têm demonstrando um interesse crescente na adoção de métodos ágeis, com foco em aumentar sua produtividade. Esta palestra apresenta uma análise da indústria de software nacional em termos do interesse da mesma na melhoria dos processos de gestão baseada em métodos ágeis e CMMI e MPS.BR. Esta palestra analisa, ainda, a viabilidade do emprego de algumas metodologias ágeis para se atingir os níveis de maturidade do MPS.BR. Os níveis do MPS.BR são investigados, tomando-se por base os resultados esperados dos processos que compõe cada nível.           	
             		</div>
             	</div>
             </div>
