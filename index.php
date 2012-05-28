@@ -119,7 +119,8 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://www.jambu.com.br/" target="_blank"><img src='imagens/jambu.jpeg' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="" target="_blank"><img src='imagens/ingenieux.png' class="patrocinio" /></a><br /></div>
 
-
+             <h3>Gold</h3>
+                <div class="logo-patrocinador"><a href="http://www.prontodigital.com.br/" target="_blank"><img src='imagens/logo-pronto.png' class="patrocinio" /></a><br /></div>
             <h3>Silver</h3>
                 <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.redeinformatica.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="75" class="patrocinio" /></a><br /></div>
@@ -129,7 +130,7 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://www.ideiasmobile.com.br/" target="_blank"><img src='imagens/ideias_mobile.png' class="patrocinio" /></a><br /></div>
 
             <h1>Apoio</h1>
-            <a href="http://www.cesupa.br/" target="_blank"><img src='imagens/cesupa.jpg' class="apoio" /></a>
+            <div class="logo-patrocinador"><a href="http://www.cesupa.br/" target="_blank"><img src='imagens/logoCESUPA.jpg' class="patrocinio" /></a></div>
           </div>
 
           <div id='main-social'>
