@@ -116,7 +116,7 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.idopter.com/" target="_blank"><img src='imagens/idopter-logo.png' class="patrocinio" /></a><br /></div>
-                <div class="logo-patrocinador"><a href="http://www.jambu.com.br/" target="_blank"><img src='imagens/jambu.jpeg' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.jambu.com.br/" target="_blank"><img src='imagens/jambu.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="" target="_blank"><img src='imagens/ingenieux.png' class="patrocinio" /></a><br /></div>
 
              <h3>Gold</h3>
@@ -218,7 +218,7 @@ $(document).ready(function(){
             <h1>Programação</h1>
             
             <p>
-              Em dois dias, além das palestras você poderá participar de workshops, Conding Dojos,
+              Em dois dias, além das palestras você poderá participar de workshops, Coding Dojos,
               Lightning Talks e participar da #horaDoDesapego!
             </p>
             
