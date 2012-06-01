@@ -215,6 +215,8 @@ $(document).ready(function(){
             <p>CESUPA Unidade Av. Almirante Barroso, nº 3775 - Belém-PA</p>
 
 <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17&amp;output=embed"></iframe><br /><small>Visualizar <a href="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17" style="color:#0000FF;text-align:left">CESUPA Almirante Barroso</a> em um mapa maior</small>          
+<p>A Doctor Lanches e Restaurante, <strong>comercializará</strong> o almoço nos dois dias do evento. Dessa forma, evitamos transtorno com o trânsito e ganhamos mais tempo livre para o network.</p>
+<p>O estacionamento estará disponível pelo preço simbólico de R$ 3,00 por dia. Deste modo seu carro estará em segurança durante o decorrer do evento.</p>
           </div>
 
           <div id='programacao' class="secao">
@@ -479,7 +481,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
               </thead>
               <tbody>
                 <tr class='day1'>
-                  <td rowspan='14'>Dia 1</td>
+                  <td rowspan='14'>Dia 09/06</td>
                 </tr>
                 <tr>
                   <td>8:00</td>
@@ -546,7 +548,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
 
                 <tr class='day2'>
-                  <td rowspan='13'>Dia 2</td>
+                  <td rowspan='13'>Dia 10/06</td>
                 </tr>
                 
                 <tr>
@@ -956,7 +958,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>
                   	 <h2>Luiz Sanches</h2>
                       <p>
-                        Trabalha com desenvolvimento de software e ensino em informática a mais de 10 anos. É graduado em Sistemas de Informação e pós-graduando em Gestão Ágil de Projetos. Atua como desenvolvedor e administrador de sistemas, via home office, para o Instituto Intercidadania em Recife e atacando de Severino na <a href="http://nomadetec.com.br" target="_blank">Nômade Tecnologia</a>.
+                        Trabalha com desenvolvimento de software e ensino em informática a mais de 10 anos. É graduado em Sistemas de Informação e pós-graduando em Gestão Ágil de Projetos. Atua como desenvolvedor e administrador de sistemas, remotamente, para a Escola Brasileira de Ensino Jurídico na Internet e atacando de Severino na <a href="http://nomadetec.com.br" target="_blank">Nômade Tecnologia</a>.
                       </p>
                       <p>
                         Resumindo: pernambucano, paraense, programador, escritor, mochileiro, baixinho, careca e barrigudo.
