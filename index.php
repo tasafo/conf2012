@@ -213,7 +213,8 @@ $(document).ready(function(){
             <p>CESUPA Unidade Av. Almirante Barroso, nº 3775 - Belém-PA</p>
 
 <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17&amp;output=embed"></iframe><br /><small>Visualizar <a href="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17" style="color:#0000FF;text-align:left">CESUPA Almirante Barroso</a> em um mapa maior</small>          
-<p>A Doctor Lanches e Restaurante, comercializará o almoço nos dois dias do evento.</p>
+<p>A Doctor Lanches e Restaurante, <strong>comercializará</strong> o almoço nos dois dias do evento. Dessa forma, evitamos transtorno com o trânsito e ganhamos mais tempo livre para o network.</p>
+<p>O estacionamento estará disponível pelo preço simbólico de R$ 3,00 por dia. Deste modo seu carro estará em segurança durante o decorrer do evento.</p>
           </div>
 
           <div id='programacao' class="secao">
