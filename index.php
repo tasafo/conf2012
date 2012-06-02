@@ -82,7 +82,6 @@ $(document).ready(function(){
             <li><a href='#palestrantes'>Palestrantes</a></li>
             <li><a href='#lightning-talks'>Lightning Talks</a></li>
             <li><a href='#inscricoes'>Inscrições</a></li>
-            <li><a href='#patrocine'>Patrocine!</a></li>
             <li><a href='#cursos'>Cursos Parceiros</a></li>
             <li><a href='#contato'>Contato</a></li>
           </ul>
@@ -117,18 +116,24 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://chaordicsystems.com/" target="_blank"><img src='imagens/chaordic.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.ica-ti.com.br/" target="_blank"><img src='imagens/LogoICA-TI-Transp-Normal.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.idopter.com/" target="_blank"><img src='imagens/idopter-logo.png' class="patrocinio" /></a><br /></div>
-            <h3>Platinum</h3>
-            <div class="logo-patrocinador"><img src='imagens/img-gold.png' width="100" height="60" /><br /></div>
-            
-            <h3>Gold</h3>
-                <div class="logo-patrocinador"><img src='imagens/img-gold.png' /><br /></div>
-            
+                <div class="logo-patrocinador"><a href="http://www.jambu.com.br/" target="_blank"><img src='imagens/jambu.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="" target="_blank"><img src='imagens/ingenieux.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.pingmind.com/" href="" target="_blank"><img src='imagens/ping_mind.png' class="patrocinio" /></a><br /></div>
+
+             <h3>Gold</h3>
+                <div class="logo-patrocinador"><a href="http://www.prontodigital.com.br/" target="_blank"><img src='imagens/logo-pronto.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.onhands.com.br/" target="_blank"><img src='imagens/onhands.png' class="patrocinio" /></a><br /></div>
+
             <h3>Silver</h3>
                 <div class="logo-patrocinador"><a href="http://coyoti.com.br/blog/" target="_blank"><img src='imagens/coyoti.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.redeinformatica.com.br/" target="_blank"><img src='imagens/lolo_rede.png' height="75" class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.twitter.com/androidnarede" target="_blank"><img height="100" src='imagens/androidnarede_logo.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://solontecnologia.com.br/" target="_blank"><img height="100" src='imagens/logo_solon.jpg' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.nortsys.com.br/" target="_blank"><img src='imagens/nortsys.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.ideiasmobile.com.br/" target="_blank"><img src='imagens/ideias_mobile.png' class="patrocinio" /></a><br /></div>
 
             <h1>Apoio</h1>
-            <a href="http://www.cesupa.br/" target="_blank"><img src='imagens/cesupa.jpg' class="apoio" /></a>
+            <div class="logo-patrocinador"><a href="http://www.cesupa.br/" target="_blank"><img src='imagens/logoCESUPA.jpg' class="patrocinio" /></a></div>
           </div>
 
           <div id='main-social'>
@@ -210,13 +215,15 @@ $(document).ready(function(){
             <p>CESUPA Unidade Av. Almirante Barroso, nº 3775 - Belém-PA</p>
 
 <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17&amp;output=embed"></iframe><br /><small>Visualizar <a href="http://maps.google.com.br/maps/ms?t=h&amp;msa=0&amp;msid=216760841145848245842.0004beea2432cbeb8544b&amp;source=embed&amp;ie=UTF8&amp;ll=-1.418894,-48.447465&amp;spn=0.003218,0.003219&amp;z=17" style="color:#0000FF;text-align:left">CESUPA Almirante Barroso</a> em um mapa maior</small>          
+<p>A Doctor Lanches e Restaurante, <strong>comercializará</strong> o almoço nos dois dias do evento. Dessa forma, evitamos transtorno com o trânsito e ganhamos mais tempo livre para o networking.</p>
+<p>O estacionamento estará disponível pelo preço simbólico de R$ 3,00 por dia. Deste modo seu carro estará em segurança durante o decorrer do evento.</p>
           </div>
 
           <div id='programacao' class="secao">
             <h1>Programação</h1>
             
             <p>
-              Em dois dias, além das palestras você poderá participar de workshops, Conding Dojos,
+              Em dois dias, além das palestras você poderá participar de workshops, Coding Dojos,
               Lightning Talks e participar da #horaDoDesapego!
             </p>
             
@@ -304,7 +311,7 @@ Esta palestra faz uma apresentação de uma proposta para melhorar o entendiment
             			<h3>Desafio de um programa de melhorias usando conceitos ágeis</h3>
             	<p>
             		<strong>Resumo</strong><br/>
-					A definir.            	
+					Estamos vivenciando um cenário onde organizações têm empregado esforços substanciais na melhoria dos seus processos com base em modelos de qualidade, tais como o CMMI e MPS.BR. Adicionalmente, estas organizações têm demonstrando um interesse crescente na adoção de métodos ágeis, com foco em aumentar sua produtividade. Esta palestra apresenta uma análise da indústria de software nacional em termos do interesse da mesma na melhoria dos processos de gestão baseada em métodos ágeis e CMMI e MPS.BR. Esta palestra analisa, ainda, a viabilidade do emprego de algumas metodologias ágeis para se atingir os níveis de maturidade do MPS.BR. Os níveis do MPS.BR são investigados, tomando-se por base os resultados esperados dos processos que compõe cada nível.           	
             		</div>
             	</div>
             </div>
@@ -312,8 +319,12 @@ Esta palestra faz uma apresentação de uma proposta para melhorar o entendiment
             <div style="display: none;">
             	<div id="palestra-pigor" class="palestra">
             		<div class="foto-palestrante" >
-            			<img src='imagens/paulo_igor.jpg' /><br />
-            			<a href="https://twitter.com/#!/pigodinho" target="_blank">Paulo Igor</a>
+                        <p>
+                			<img src='imagens/paulo_igor.jpg' /><br />
+                			<a href="https://twitter.com/#!/pigodinho" target="_blank">Paulo Igor</a>
+                        </p>
+                        <img src='imagens/mateus_linhares.jpeg' /><br />
+                        <a href="https://twitter.com/#!/mateuslinahres" target="_blank">Mateus Linhares</a>
             		</div>
             		<div class="conteudo-palestra">
             			<h3>JRuby: Explorando um mundo de possibilidades</h3>
@@ -467,7 +478,6 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 <th>Auditório</th>
                 <th>Sala 1</th>
                 <th>Sala 2</th>
-                <th>Salão</th>
               </thead>
               <tbody>
                 <tr class='day1'>
@@ -476,13 +486,12 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 <tr>
                   <td>8:00</td>
                   <td>Credenciamento / Café da Manhã</td>
-                  <td colspan="3"></td>
+                  <td colspan="2"></td>
                 </tr>
                 <tr>
                   <td>9:00</td>
                   <td><a id="trigger-abertura" href="#palestra-abertura">"Comunidade Aberta com Pessoas Adaptáveis, Simples e Auto-Organizadas" <br /> Fábio Aguiar e Luiz Sanches</a></td>
                   <td colspan="2"></td>
-                  <td rowspan="2"> Exposição</td>
                 </tr>
                 <tr>
                   <td>9:50</td>
@@ -491,13 +500,12 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>10:40</td>
-                  <td colspan="4">Intervalo</td>
+                  <td colspan="3">Intervalo</td>
                 </tr>
                 <tr>
                   <td>11:00</td>
                   <td><a id="trigger-caike" href="#palestra-caike">"Modelagem Orientada a Interfaces" <br /> Caike Souza</a></td>
                   <td colspan="2"></td>
-                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>11:50</td>
@@ -506,14 +514,13 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>12:30</td>
-                  <td colspan="4">Almoço</td>
+                  <td colspan="3">Almoço</td>
                 </tr>
                 <tr>
                   <td>14:00</td>
                   <td ><a id="trigger-papo" href="#palestra-papo">"Seu futuro está na Nuvem! Como a Amazon pode ajudar sua empresa ou startup a crescer e a prosperar" <br /> José Papo</a></td>
                   <td rowspan="2">Dojo / Open Space</td>
                   <td rowspan="2">Tutorial / Workshop</td>
-                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>14:50</td>
@@ -522,21 +529,22 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 <tr>
                   <td>15:40</td>
                   <td><a id="trigger-magno" href="#palestra-magno">"Ao invés de demitir sua empresa, que tal se empenhar para melhorá-la?" <br> Alexandre Magno</a></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
                   <td>16:30</td>
-                  <td colspan="4">Intervalo</td>
+                  <td colspan="3">Intervalo</td>
                 </tr>
                 <tr>
                   <td>16:50</td>
                   <td>Lightning Talks (5)</td>
                   <td></td>
                   <td></td>
-                  <td>Exposição</td>
                 </tr>
 <tr class='day1'>
                   <td>17:40</td>
-                  <td colspan="4">Enceramento do primeiro dia</td>
+                  <td colspan="3">Encerramento do primeiro dia</td>
                 </tr>
 
                 <tr class='day2'>
@@ -548,14 +556,12 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>Credenciamento / Café da Manhã</td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td>9:00</td>
                   <td><a id="trigger-manoel" href="#palestra-manoel">"Não tolero falhas e no meu time tem um bando de retardados! E agora?" <br /> Manoel Pimentel</a></td>
                   <td></td>
                   <td rowspan="2">Tutorial / Workshop</td>
-                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>9:50</td>
@@ -564,14 +570,13 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>10:40</td>
-                  <td colspan="4">Intervalo</td>
+                  <td colspan="3">Intervalo</td>
                 </tr>
                 <tr>
                   <td>11:00</td>
                   <td><a id="trigger-aldrin" href="#palestra-aldrin">"Reflexões sobre os Dogmas que não Latem mais" <br /> Aldrin Leal</a></td>
                   <td></td>
                   <td rowspan="2">Tutorial / Workshop</td>
-                  <td rowspan="2">Exposição</td>
                 </tr>
                 <tr>
                   <td>12:00</td>
@@ -580,14 +585,13 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>13:00</td>
-                  <td colspan="4">Almoço</td>
+                  <td colspan="3">Almoço</td>
                 </tr>
                 <tr>
                   <td>14:00</td>
-                  <td><a id="trigger-pigor" href="#palestra-pigor">"JRuby: Explorando um mundo de possibilidades"<br /> Paulo Igor</a></td>
+                  <td><a id="trigger-pigor" href="#palestra-pigor">"JRuby: Explorando um mundo de possibilidades"<br /> Paulo Igor e Mateus Linhares</a></td>
                   <td rowspan='2'>Dojo/Open Space</td>
                    <td rowspan='2'>Dojo/Open Space</td>
-                  <td rowspan='3'>Exposição</td>
                  
                 </tr>
                 
@@ -605,18 +609,15 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>Lightning Talks (5)</td>
                   <td></td>
                   <td></td>
-                  <td>Exposição</td>
                 </tr>
                 <tr>
                   <td>16:50</td>
                   <td>#papoSafo / Encerramento</td>
                   <td></td>
                   <td></td>
-                  <td></td>
                 </tr>
               </tbody>
             </table>
-            <strong style="color: red">* O Doctor Lanches e Restaurante comercializará o almoço nos dois dias do evento.</strong>
           </div>
 
           <div id='palestrantes' class="secao">
@@ -686,7 +687,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>
                   	<h2>Jaime Schettini</h2>
                      <p>
-                      Atuo há mais de 4 anos com desenvolvimento de software e hoje faço parte do time da <a href="http://www.chaordicsystems.com/" target="_blank">Chaordic Systems</a>. Pratico e acredito fortemente nas metodologias ágeis, por achar que elas são o que temos de melhor hoje, pois valorizam as pessoas por trás do software. Tenho a convicção de que precisamos ser, primeiro, melhores pessoas, para depois nos tornarmos melhores profissionais.
+                      Atuo há mais de 4 anos com desenvolvimento de software e hoje faço parte do time da <a href="http://www.chaordicsystems.com/" target="_blank">Chaordic</a>. Pratico e acredito fortemente nas metodologias ágeis, por achar que elas são o que temos de melhor hoje, pois valorizam as pessoas por trás do software. Tenho a convicção de que precisamos ser, primeiro, melhores pessoas, para depois nos tornarmos melhores profissionais.
                      <p>
                        	<a href="https://twitter.com/jaimeschettini" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
                        	<a href="http://jaimesch.blogspot.com.br/" target="_blank" title="Blog"><img class="icon" src="imagens/blogspot icon.png" /></a>
@@ -897,6 +898,28 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
               <table>
                 <tr>
                   <td>
+                   <img src='imagens/mateus_linhares.jpeg' />
+                  </td>
+                  <td>
+                    <h2>Mateus Linhares</h2>
+                      <p>
+                       Trabalha com desenvolvimento de software há 5 anos, com experiência, na maior parte, em Ruby, Java e PHP. Atualmente é Co-Fundador da Idopter Labs, que desenvolve soluções web.
+                       
+                       <p>
+                        <a href="https://twitter.com/#!/mateuslinhares" target="_blank" title="Twitter"><img class="icon" src="imagens/twiiter_icon.png" /></a>
+                        <a href="http://br.linkedin.com/in/mateuslinhares" target="_blank" title="Linkedin"><img class="icon" src="imagens/linkedin.png" /></a>
+                       </p>
+                      </p>
+                 </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="talker">
+              
+              <table>
+                <tr>
+                  <td>
                    <img src='imagens/fabio_aguiar.jpg' />
                   </td>
                   <td>
@@ -934,7 +957,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>
                   	 <h2>Luiz Sanches</h2>
                       <p>
-                        Trabalha com desenvolvimento de software e ensino em informática a mais de 10 anos. É graduado em Sistemas de Informação e pós-graduando em Gestão Ágil de Projetos. Atua como desenvolvedor e administrador de sistemas, via home office, para o Instituto Intercidadania em Recife e atacando de Severino na <a href="http://nomadetec.com.br" target="_blank">Nômade Tecnologia</a>.
+                        Trabalha com desenvolvimento de software e ensino em informática a mais de 10 anos. É graduado em Sistemas de Informação e pós-graduando em Gestão Ágil de Projetos. Atua como desenvolvedor e administrador de sistemas, remotamente, para a Escola Brasileira de Ensino Jurídico na Internet e atacando de Severino na <a href="http://nomadetec.com.br" target="_blank">Nômade Tecnologia</a>.
                       </p>
                       <p>
                         Resumindo: pernambucano, paraense, programador, escritor, mochileiro, baixinho, careca e barrigudo.
@@ -1061,96 +1084,12 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                     <h3><a href="http://railsforzombies.org">Rails for Zombies</a></h3>
                     <p>
                       Venha aprender mais sobre o framework que revolucionou a forma como desenvolvemos para a web! Este workshop aborda os princípios básicos de desenvolvimento com Ruby on Rails, usando um ambiente de ensino com todos os recursos necessários para o aprendizado e a realização dos exercícios de maneira bastante prática e descontraída, o <a href="http://codeschool.com">CodeSchool</a>.
+                      O conteúdo do workshop é parte dos cursos <a href="http://www.codeschool.com/courses/rails-for-zombies">Rails For Zombies</a> e <a href="http://www.codeschool.com/courses/rails-for-zombies-2">Rails For Zombies 2</a>, e será apresentado <em>presencialmente e em português</em> pelo instrutor.
                     </p>
-                    <p>Garanta já a sua vaga <a href="https://docs.google.com/a/caikesouza.com/spreadsheet/viewform?formkey=dG9mNTRGRUlGWkZqbEk4ZXYxejFxTHc6MQ">preenchendo este formulário</a></p>
+                    <p>Garanta já a sua vaga! <a href="https://docs.google.com/a/caikesouza.com/spreadsheet/viewform?formkey=dG9mNTRGRUlGWkZqbEk4ZXYxejFxTHc6MQ">preenchendo este formulário</a></p>
                     <p><strong>Informações Adicionais</strong> <a href='mailto:caike@envylabs.com' target="_blank">caike@envylabs.com</a></p>
                 </div>
             </div>
-
-            <div id='patrocine' class="secao">
-            <div class='small-title'>
-              <h1 class='small'>Patrocine! </h1> <h2 class='small'>Estimativa de 350 pessoas!</h2>
-            </div>
-
-            <p class="well">
-              Para saber mais sobre como patrocinar o evento, mande um email para
-              <a href='mailto:tasafoorg@gmail.com' target="_blank">tasafoorg@gmail.com</a>
-            </p>
-
-            <p>
-              O <b>Tá Safo</b> é uma comunidade originada em Belém no estado do Pará, que vem 
-              representando e buscando a integração em toda a região norte do país, atuando 
-              fortemente no estado de origem e nas regiões próximas. Hoje a comunidade atua 
-              como integradora junto a outras comunidades e grupos da região que estão buscando 
-              a inovação, a disseminação do conhecimento e de novas formas de empreender, com o
-              objetivo maior de formação do capital intelectual e elevação da qualidade.
-            </p>
-
-            <p>
-              Desde 2009 o <b>Tá Safo</b> vem promovendo vários eventos, incluindo alguns nacionalmente 
-              conhecidos como o 
-              <a href="http://maredeagilidade.com.br/eventos_passados/belem/11-2009/" target="_blank">Maré de Agilidade (2009)</a>
-              e o 
-              <a href="http://at2011.agiletour.org/en/belem.html" target="_blank">Agile Tour (2011)</a>.
-            </p>
-
-
-            <p>
-              Desses um bem 
-              representativo e conhecido por todos na comunidade são os encontros do 
-              <a href="http://tasafo.wordpress.com/tasafoemacao/" target="_blank">#tasafoemacao</a>, além dos 
-              coding dojos, hora do desapego, 
-              papo safo, entre outras iniciativas realizadas ao longo desses anos. Nesses eventos e 
-              encontros tivemos públicos de até 300 pessoas e esperamos esse ano ultrapassar esse 
-              número.
-            </p>
-
-            <div class="well numeros">
-              <h3>Principais meios de comunicação da comunidade</h3>
-              <b>300 inscritos</b> na <a href="http://br.groups.yahoo.com/group/safos/" target="_blank">lista de discussão</a><br>
-              <b>500 amigos</b> no <a href="http://facebook.com/comunidadetasafo" target="_blank">Facebook</a><br>
-              <b>700 seguidores</b> no twitter <a href="https://twitter.com/#!/tasafo" target="_blank">@tasafo</a><br>
-              <b>1000 visitas mensais</b> no <a href="http://tasafo.org/" target="_blank">site oficial do Tá Safo!</a>
-            </div>
-
-            <p>
-              Todos esses números contam com uma diversidade enorme de pessoas participantes 
-              que incluem profissionais, empreendedores, estudantes e todos vivendo em um momento
-              de aquecimento do mercado local com as novas iniciativas do governo, grandes 
-              empreendimentos e o surgimento de várias startups (30 mapeadas pela AmazonStartup) 
-              que mostram um pouco do momento propício para novas iniciativas e oportunidades na 
-              região.
-            </p>
-
-            <p>
-              Esse ano o <b>Tá Safo</b> completa 5 anos e por isso será realizado um evento 
-              comemorativo que reunirá algumas das ações que a comunidade realizou nesses anos 
-              como o <b>#tasafoemacao</b>, <b>#horadodesapego</b>, <b>#papoSafo</b>, 
-              <b>lighting talks</b>, <b>palestras</b>, 
-              <b>workshops</b>, <b>open spaces</b>, <b>coding dojos</b> e tudo isso em dois dias de evento. O nome do 
-              evento e os dias foram escolhidos através de uma enquete feita com todos do Tá Safo 
-              que decidiram realizar o <b>Tá Safo Conf 2012</b> nos dias <b>9 e 10 de junho de 2012</b>.
-            </p>
-
-            <p>
-              O objetivo desse evento não é só comemorar essa jornada de 5 anos, mas 
-              consolidar todo esse movimento e o momento que a comunidade e a região vivem, 
-              promovendo o contato entre as pessoas e as empresas que acreditam no potencial da 
-              região. Além de oferecer a oportunidade de todos os envolvidos conhecerem o 
-              potencial da mão de obra especializada e o enorme mercado inexplorado que existe 
-              na região norte.
-            </p>
-
-            <p>
-              Conheça mais sobre o <b>Tá Safo Conf 2012</b> e nossas cotas de patrocínio para 
-              participar desse importante momento de forma privilegiada.
-            </p>
-
-            <p class="well">
-              Para saber mais sobre como patrocinar o evento, mande um email para
-              <a href='mailto:tasafoorg@gmail.com' target="_blank">tasafoorg@gmail.com</a>
-            </p>
-          </div>
 
           <div id='contato'>
             <h1>Contato</h1>
