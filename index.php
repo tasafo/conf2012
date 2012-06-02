@@ -520,7 +520,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>14:00</td>
                   <td ><a id="trigger-papo" href="#palestra-papo">"Seu futuro está na Nuvem! Como a Amazon pode ajudar sua empresa ou startup a crescer e a prosperar" <br /> José Papo</a></td>
                   <td rowspan="2">Dojo / Open Space</td>
-                  <td rowspan="2">Tutorial / Workshop</td>
+                  <td rowspan="3"><a href="#curso-caike">Workshop Ruby on Rails</a></td>
                 </tr>
                 <tr>
                   <td>14:50</td>
@@ -529,7 +529,6 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 <tr>
                   <td>15:40</td>
                   <td><a id="trigger-magno" href="#palestra-magno">"Ao invés de demitir sua empresa, que tal se empenhar para melhorá-la?" <br> Alexandre Magno</a></td>
-                  <td></td>
                   <td></td>
                 </tr>
                 <tr>
@@ -540,7 +539,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>16:50</td>
                   <td>Lightning Talks (5)</td>
                   <td></td>
-                  <td></td>
+                  <td><a href="#curso-caike">Workshop Ruby on Rails</a></td>
                 </tr>
 <tr class='day1'>
                   <td>17:40</td>
@@ -561,7 +560,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>9:00</td>
                   <td><a id="trigger-manoel" href="#palestra-manoel">"Não tolero falhas e no meu time tem um bando de retardados! E agora?" <br /> Manoel Pimentel</a></td>
                   <td></td>
-                  <td rowspan="2">Tutorial / Workshop</td>
+                  <td rowspan="2"><a href="#curso-caike">Workshop Ruby on Rails</a></td>
                 </tr>
                 <tr>
                   <td>9:50</td>
@@ -576,7 +575,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                   <td>11:00</td>
                   <td><a id="trigger-aldrin" href="#palestra-aldrin">"Reflexões sobre os Dogmas que não Latem mais" <br /> Aldrin Leal</a></td>
                   <td></td>
-                  <td rowspan="2">Tutorial / Workshop</td>
+                  <td rowspan="2"><a href="#curso-caike">Workshop Ruby on Rails</a></td>
                 </tr>
                 <tr>
                   <td>12:00</td>
@@ -1079,7 +1078,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                     </p>
                     <p><strong>Contato para inscrição:</strong> Joana Fernandes <strong>jfernandes@adaptworks.com.br</strong></p>
                 </div>
-                <div>
+                <div id="curso-caike">
                     <h2>Workshop Ruby on Rails</h2>
                     <h3><a href="http://railsforzombies.org">Rails for Zombies</a></h3>
                     <p>
