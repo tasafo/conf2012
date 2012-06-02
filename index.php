@@ -471,7 +471,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
               </thead>
               <tbody>
                 <tr class='day1'>
-                  <td rowspan='14'>Dia 1</td>
+                  <td rowspan='14'>Dia 09/06</td>
                 </tr>
                 <tr>
                   <td>8:00</td>
@@ -540,7 +540,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
 
                 <tr class='day2'>
-                  <td rowspan='13'>Dia 2</td>
+                  <td rowspan='13'>Dia 10/06</td>
                 </tr>
                 
                 <tr>
