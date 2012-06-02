@@ -122,6 +122,7 @@ $(document).ready(function(){
                 <div class="logo-patrocinador"><a href="http://www.jambu.com.br/" target="_blank"><img src='imagens/jambu.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="" target="_blank"><img src='imagens/ingenieux.png' class="patrocinio" /></a><br /></div>
                 <div class="logo-patrocinador"><a href="http://www.pingmind.com/" href="" target="_blank"><img src='imagens/ping_mind.png' class="patrocinio" /></a><br /></div>
+                <div class="logo-patrocinador"><a href="http://www.prodepa.pa.bov.br/" href="" target="_blank"><img src='imagens/prodepa.png' class="patrocinio" /></a><br /></div>
 
              <h3>Gold</h3>
                 <div class="logo-patrocinador"><a href="http://www.prontodigital.com.br/" target="_blank"><img src='imagens/logo-pronto.png' class="patrocinio" /></a><br /></div>
