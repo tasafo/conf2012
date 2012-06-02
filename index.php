@@ -80,10 +80,13 @@ $(document).ready(function(){
             <li><a href='#local'>Local</a></li>
             <li><a href='#programacao'>Programação</a></li>
             <li><a href='#palestrantes'>Palestrantes</a></li>
-            <li><a href='#lightning-talks'>Lightning Talks</a></li>
             <li><a href='#inscricoes'>Inscrições</a></li>
+
+
             <li><a href='#cursos'>Cursos Parceiros</a></li>
             <li><a href='#contato'>Contato</a></li>
+
+            <li><a href='#lightning-talks'>Lightning Talks</a></li>
           </ul>
         </div>
         <div id="arte">
@@ -1090,7 +1093,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </div>
             </div>
 
-          <div id='contato'>
+          <div id='contato' class='secao'>
             <h1>Contato</h1>
             <p>
               Você pode manter contato com a organização diretamente por 
@@ -1102,24 +1105,96 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
             </p>
           </div>
             
-            <div id="lightning-talks" class="secao">
+          <div id="lightning-talks" class="secao">
         	<h1>Lightning Talks</h1>
         	<p>
-        		Está aberta a chamada de propostas para as Lightning Talks para o Tá Safo! Conf. Será uma rodada de palestras-relâmpago de no máximo 
-        		10 minutos, com tema livre. Tudo isso da maneira do Tá Safo! e num ambiente leve e descontraído. 
-        		Você pode cadastrar sua talk no <a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Call4paperz</a>, mas não esqueça de twittar :).
-        		Então, se você gostaria de compartilhar algo conosco, não deixe de cadastrar sua proposta!
-        		
-        		
+        	    Foi encerrada a chamada de propostas para as Lightning Talks para o Tá Safo Conf 2012!. Será uma rodada de palestras-relâmpago de no máximo 
+                10 minutos, com tema livre. Tudo isso da maneira do Tá Safo! e num ambiente leve e descontraído. 
+            </p>
+            <p>
+                Veja os safudos mais votados!
         	</p>
 	    
-        	<a href="http://call4paperz.com/events/t%C3%A1-safo-conf-lightning-talks" target="_blank">Cadastrar Talk</a>
-                <div id="pog-call4pappers">
-                    <?php  include 'pog.php';?>
-                </div>
+        	<div class="talk">
+                <h2>Por que investir em aplicativos? Conheça a OnHands!</h2>
+                <h3>Lilian Dias</h3>
+                <p>
+                    Uma conversa descontraída sobre os casos de sucesso de empresas que utilizam aplicativos em seus produtos e apresentação da OnHands!, uma startup criada na região que trabalha com o desenvolvimento de aplicativos móveis para iOS e Android, e seus principais produtos.
+                </p>
+            </div>
 		
-        </div>  
+            <div class="talk">
+                <h2>Não seja seu próprio sabotador</h2>
+                <h3>Breno Campos</h3>
+                <p>
+                    Um pequeno bate papo sobre produtividade. Como no post em nosso blog da CoyoTI: http://coyoti.com.br/blog/nao-seja-seu-proprio-sabotador/
+                </p>
+            </div>
 
+            <div class="talk">
+                <h2>O quanto você se considera importante na sua organização?</h2>
+                <h3>Diego Lisboa</h3>
+                <p>
+                    O objetivo é apresentar aspectos motivacionais de como podemos nos tornar indispensáveis na organização em que atuamos e na nossa vida de um modo geral. Essa talks abordará os temas apresentados no post da CoyoTI: http://coyoti.com.br/blog/o-quanto-voce-se-considera-importante-na-sua-organizacao/
+                </p>
+            </div>
+
+            <div class="talk">
+                <h2>Desenvolvimento de Jogos: Análise da arquitetura e sua evolução social</h2>
+                <h3>Michel Montenegro</h3>
+                <p>
+                    Palestra usada em uma de minhas defesas (Monografia) no curso de Engenharia de Sistemas. Mesmo sendo jogo rápido vai ser bem interessante o tema, dando uma visão menos técnica e sim mais atual desta área.
+                </p>
+            </div>
+
+            <div class="talk">
+                <h2>Criando conteúdo em realidade aumentada com Wikitude</h2>
+                <h3>Cláudio Afonso</h3>
+                <p>
+                    Iremos apresentar os conceitos de realidade aumentada e um pequeno tutorial de como criar conteúdo usando um dos aplicativos mais difundidos para dispositivos móveis: Wikitude.
+                </p>
+            </div>
+
+            <div class="talk">
+                <h2>Otimizando o SCRUM Board com KANBAN</h2>
+                <h3>Vítor</h3>
+                <p>
+                    Consiste na apresentação de como você pode melhorar a visibilidade do andamento das suas tarefas NÃO usando mais um simples SCRUM Board, porque TO DO, DOING e DONE não dizem muita coisa. Para isso irei apresentar o KANBAN e sua aplicação ao ambiente de desenvolvimento.
+                </p>
+            </div>
+
+            <div class="talk">
+                <h2>VRaptor - Alta produtividade no Desenvolvimento Web em Java</h2>
+                <h3>Kaiko Valente</h3>
+                <p>
+                    Apresentar uma visão geral sobre este framework com foco em desenvolvimento rápido e simples, baseado no conceito de Convenção sobre Configuração. Abordando suas principais características como Injeção de dependências, Interceptadores, Validações, Ajax e Resources-Rest.
+                </p>
+            </div>
+
+            <div class="talk">
+                <h2>JQuery framework</h2>
+                <h3>Andreson Thiago Silva</h3>
+                <p>
+                    Abordagem JQuery x JavaScript puro, Vantages da utilização de JQuery, Sintaxe da ferramenta, Principais funções: Seletores Jquery, Funções para ajax, Eventos, Funções de manipulação, Apresentação de alguns plugins disponivés e suas funcionalidades
+                </p>
+            </div>
+
+            <div class="talk">
+                <h2>Pilhas de Areia e Software - Uma Metáfora para o Desenvolvimento de Software</h2>
+                <h3>Luiz Danin</h3>
+                <p>
+                    Bate papo sobre uma interessante metáfora comparativa da construção de um software e a acumulação de grãos de areia um por vez, e a administração dos prováveis deslizamentos quando a pila (software) fica muito grande.
+                </p>
+            </div>
+
+            <div class="talk">
+                <h2>Desenvolvimento Web para Android</h2>
+                <h3>Ramon Rabello</h3>
+                <p>
+                    Você já desenvolve para Web e gostaria de utilizar seus conhecimentos de HTML, JavaScript e CSS também para aplicações em Android? Em apenas 10 minutos irei demonstrar como fazer isso utilizando todo o poder do framework cross-platform JQuery Mobile. Não perca! :)
+                </p>
+            </div>
+          </div>  
         </div>
       </div>
     </div>

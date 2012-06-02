@@ -347,9 +347,7 @@ div.talker td {
 }
 div.talker img {
   width: 160px;
-  padding: 8px;
-  //border: 8px solid white;
-  border: 1px solid #ececec;
+  border: 8px solid white;
 }
 
 div.talker p img.icon{
@@ -485,4 +483,20 @@ a.prop_link:hover, a.prop_link:active{
 .conteudo-palestra p{
 	width: 500px;
 	font-size: 14px;
+}
+
+.talk {
+border-bottom: 1px solid;
+border-bottom-style: dashed
+
+}
+
+.talk h2 {
+  color: black;
+  margin-bottom: 0px;
+}
+
+.talk h3 {
+  font-weight: normal;
+  margin: 0px;
 }
