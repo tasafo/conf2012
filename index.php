@@ -1158,7 +1158,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
 
             <div class="talk">
                 <h2>Otimizando o SCRUM Board com KANBAN</h2>
-                <h3>Vítor</h3>
+                <h3>Vítor Castro</h3>
                 <p>
                     Consiste na apresentação de como você pode melhorar a visibilidade do andamento das suas tarefas NÃO usando mais um simples SCRUM Board, porque TO DO, DOING e DONE não dizem muita coisa. Para isso irei apresentar o KANBAN e sua aplicação ao ambiente de desenvolvimento.
                 </p>
@@ -1166,7 +1166,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
 
             <div class="talk">
                 <h2>VRaptor - Alta produtividade no Desenvolvimento Web em Java</h2>
-                <h3>Kaiko Valente</h3>
+                <h3>Kaio Valente</h3>
                 <p>
                     Apresentar uma visão geral sobre este framework com foco em desenvolvimento rápido e simples, baseado no conceito de Convenção sobre Configuração. Abordando suas principais características como Injeção de dependências, Interceptadores, Validações, Ajax e Resources-Rest.
                 </p>
@@ -1181,18 +1181,18 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
             </div>
 
             <div class="talk">
-                <h2>Pilhas de Areia e Software - Uma Metáfora para o Desenvolvimento de Software</h2>
-                <h3>Luiz Danin</h3>
-                <p>
-                    Bate papo sobre uma interessante metáfora comparativa da construção de um software e a acumulação de grãos de areia um por vez, e a administração dos prováveis deslizamentos quando a pila (software) fica muito grande.
-                </p>
-            </div>
-
-            <div class="talk">
                 <h2>Desenvolvimento Web para Android</h2>
                 <h3>Ramon Rabello</h3>
                 <p>
                     Você já desenvolve para Web e gostaria de utilizar seus conhecimentos de HTML, JavaScript e CSS também para aplicações em Android? Em apenas 10 minutos irei demonstrar como fazer isso utilizando todo o poder do framework cross-platform JQuery Mobile. Não perca! :)
+                </p>
+            </div>
+
+            <div class="talk">
+                <h2>Estórias de Usuário Executáveis - BDD com JBehave</h2>
+                <h3>Paulo Moura</h3>
+                <p>
+                    No modelo ágil, criamos estórias de usuário com valor agregado ao negócio para que os stakeholders tenham mais facilidade de se engajar no projeto. Podemos tornar as estórias executáveis através de testes de aceitação de alto nível com JBehave. Nesta talk, irei demonstrar como isso funciona. Behaviour-Driven Development (BDD) é uma evolução do TDD e do design guiado por testes de aceitação.
                 </p>
             </div>
           </div>  
