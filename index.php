@@ -499,7 +499,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>9:50</td>
-                  <td><a id="trigger-rildo" href="#palestra-rildo">"Requisitos Ágeis, do negócio ao software" <br /> Rildo Santos</a></td>
+                  <td><a id="trigger-magno" href="#palestra-magno">"Ao invés de demitir sua empresa, que tal se empenhar para melhorá-la?" <br> Alexandre Magno</a></td>
                   <td colspan="2"> </td>
                 </tr>
                 <tr>
@@ -532,7 +532,7 @@ um novo caminho a ser trilhado, a partir de uma análise psicológica, para desc
                 </tr>
                 <tr>
                   <td>15:40</td>
-                  <td><a id="trigger-magno" href="#palestra-magno">"Ao invés de demitir sua empresa, que tal se empenhar para melhorá-la?" <br> Alexandre Magno</a></td>
+                  <td><a id="trigger-rildo" href="#palestra-rildo">"Requisitos Ágeis, do negócio ao software" <br /> Rildo Santos</a></td>
                   <td></td>
                 </tr>
                 <tr>
