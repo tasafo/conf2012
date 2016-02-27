@@ -1,12 +1,12 @@
 #main_body{
-	width:100%; 
-	background-color: #FFFFFF; 
-	height:auto; 
+	width:100%;
+	background-color: #FFFFFF;
+	height:auto;
 }
 
 #body{
-	width: 860px; 
-	margin:0 auto; 
+	width: 860px;
+	margin:0 auto;
 	height:auto;
 }
 
@@ -21,7 +21,7 @@
 
 #body p{
 	margin-bottom: 20px;
-	font-size:16px; 
+	font-size:16px;
 	line-height: 20px;
 	padding-left:25px;
     margin-top: 10px;
@@ -37,19 +37,19 @@
 }
 
 .inscricao01 a {
-    background: url(imagens/inscricoes/insc-ind.png) no-repeat scroll 0 0 transparent;
+    background: url(../imagens/inscricoes/insc-ind.png) no-repeat scroll 0 0 transparent;
     width: 132px;
 }
 
 .inscricao01 a:hover{
-	background: url(imagens/inscricoes/insc-ind02.png) no-repeat scroll 0 0 transparent;
+	background: url(../imagens/inscricoes/insc-ind-hover.png) no-repeat scroll 0 0 transparent;
 }
 
 .inscricao02 a {
-    background: url(imagens/inscricoes/insc-emp.png) no-repeat scroll 0 0 transparent;
+    background: url(../imagens/inscricoes/insc-emp.png) no-repeat scroll 0 0 transparent;
     width: 132px;
 }
 
 .inscricao02 a:hover{
-	background: url(imagens/inscricoes/insc-emp02.png) no-repeat scroll 0 0 transparent;
+	background: url(../imagens/inscricoes/insc-emp-hover.png) no-repeat scroll 0 0 transparent;
 }
